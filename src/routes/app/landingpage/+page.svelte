@@ -26,10 +26,12 @@
 			<!-- Content (Placed on top) -->
 			<div class="absolute z-10 mt-32 space-y-8 text-center">
 				<div class="flex flex-col items-center justify-center gap-2 text-center">
-					<h1 class=" text-center text-3xl font-bold text-white md:text-start md:text-6xl">
+					<h1
+						class="px-4 text-center text-5xl font-bold text-white md:px-0 md:text-start md:text-6xl"
+					>
 						Hi, I'm Paul Allan Palacio
 					</h1>
-					<p class="mt-2 w-auto text-white md:max-w-2xl">
+					<p class="mt-2 w-auto px-6 text-white md:max-w-2xl">
 						a graduating IT student specializing in Frontend Coding & UI/UX design.
 					</p>
 				</div>
@@ -37,14 +39,14 @@
 					<Button class=" p-6">Download CV</Button>
 				</div>
 				<!-- Hero Images -->
-				<div class="flex items-center justify-center overflow-hidden">
-					<img src="/PDRRMO.png" alt="img" class="h-96 w-auto opacity-50" />
+				<div class="flex items-center justify-center overflow-hidden px-4">
+					<img src="/PDRRMO.png" alt="img" class="h-32 w-auto opacity-50 md:h-96" />
 					<img
 						src="/coursequest.png"
 						alt="img"
-						class="h-auto w-auto rounded-3xl px-4 md:max-w-4xl md:rounded-lg md:px-0"
+						class="h-auto w-auto rounded-xl md:max-w-4xl md:rounded-lg md:px-0"
 					/>
-					<img src="/calmity.png" alt="img" class=" h-96 w-auto opacity-50" />
+					<img src="/calmity.png" alt="img" class="h-32 w-auto opacity-50 md:h-96" />
 				</div>
 			</div>
 		</div>
