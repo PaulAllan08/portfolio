@@ -5,16 +5,13 @@
 	import { ScrollArea } from '$lib/components/ui/scroll-area/index.js';
 
 	const images = [
-		'/readi/dashboard.png',
-		'/readi/dashboard-air.png',
-		'/readi/report.png',
-		'/readi/deploy.png',
-		'/readi/evacuation.png',
-		'/readi/add-evacuation.png',
-		'/readi/splash.png',
-		'/readi/home.png',
-		'/readi/report-mobile.png',
-		'/readi/evac-mobile.png'
+		'/web/shop.png',
+		'/web/crypto.png',
+		'/web/portal.png',
+		'/web/login.png',
+		'/web/state.png',
+		'/web/education.png',
+		'/web/contact.png'
 	];
 
 	const plugin = Autoplay({ delay: 2000, stopOnInteraction: true });
@@ -27,8 +24,8 @@
 			<Carousel.Item>
 				<div class="p-1">
 					<Card.Root class="bg-transparent">
-						<ScrollArea class="h-[600px] w-full" orientation="vertical">
-							<Card.Content class="flex aspect-auto items-center justify-center p-12">
+						<ScrollArea class="h-[200px] w-full md:h-[600px]" orientation="vertical">
+							<Card.Content class="flex aspect-auto items-center justify-center px-4 md:p-12">
 								<img
 									src={image}
 									alt={`Project ${i + 1}`}

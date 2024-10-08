@@ -23,8 +23,8 @@
 			<Carousel.Item>
 				<div class="p-1">
 					<Card.Root class="bg-transparent">
-						<ScrollArea class="h-[600px] w-full" orientation="vertical">
-							<Card.Content class="flex aspect-auto items-center justify-center p-12">
+						<ScrollArea class="h-[200px] w-full md:h-[600px]" orientation="vertical">
+							<Card.Content class="flex aspect-auto items-center justify-center px-4 md:p-12">
 								<img
 									src={image}
 									alt={`Project ${i + 1}`}

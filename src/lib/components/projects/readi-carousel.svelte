@@ -5,33 +5,30 @@
 	import { ScrollArea } from '$lib/components/ui/scroll-area/index.js';
 
 	const images = [
-		'/coursequest/landing.png',
-		'/coursequest/login.png',
-		'/coursequest/reg.png',
-		'/coursequest/courses.png',
-		'/coursequest/prev.png',
-		'/coursequest/enroll.png',
-		'/coursequest/enrolled.png',
-		'/coursequest/learn.png',
-		'/coursequest/dashboard.png',
-		'/coursequest/add-cat.png',
-		'/coursequest/cat-table.png',
-		'/coursequest/add-course.png',
-		'/coursequest/course-table.png'
+		'/readi/dashboard.png',
+		'/readi/dashboard-air.png',
+		'/readi/report.png',
+		'/readi/deploy.png',
+		'/readi/evacuation.png',
+		'/readi/add-evacuation.png',
+		'/readi/splash.png',
+		'/readi/home.png',
+		'/readi/report-mobile.png',
+		'/readi/evac-mobile.png'
 	];
 
 	const plugin = Autoplay({ delay: 2000, stopOnInteraction: true });
 </script>
 
 <!-- plugins={[plugin]} -->
-<Carousel.Root class="w-full md:max-w-6xl " on:mousenter={plugin.stop} on:mouseleave={plugin.reset}>
+<Carousel.Root class="w-full max-w-6xl" on:mousenter={plugin.stop} on:mouseleave={plugin.reset}>
 	<Carousel.Content>
 		{#each images as image, i (i)}
 			<Carousel.Item>
 				<div class="p-1">
 					<Card.Root class="bg-transparent">
-						<ScrollArea class="h-[600px] w-full" orientation="vertical">
-							<Card.Content class="flex aspect-auto items-center justify-center p-12">
+						<ScrollArea class="h-[200px] w-full md:h-[600px]" orientation="vertical">
+							<Card.Content class="flex aspect-auto items-center justify-center px-4 md:p-12">
 								<img
 									src={image}
 									alt={`Project ${i + 1}`}
