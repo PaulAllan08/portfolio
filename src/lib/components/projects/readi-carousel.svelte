@@ -41,6 +41,11 @@
 			</Carousel.Item>
 		{/each}
 	</Carousel.Content>
-	<Carousel.Previous />
-	<Carousel.Next />
+	<Carousel.Previous
+		class="absolute left-4 top-1/2 z-10 flex h-8 w-8 -translate-y-1/2 transform items-center justify-center rounded-full bg-black/50 p-2 text-white transition-all hover:bg-black/70 md:-left-16  md:h-12 md:w-12"
+	/>
+
+	<Carousel.Next
+		class="absolute right-4 top-1/2 z-10 flex h-8 w-8 -translate-y-1/2 transform items-center justify-center rounded-full bg-black/50 p-2 text-white transition-all hover:bg-black/70 md:-right-16 md:h-12 md:w-12"
+	/>
 </Carousel.Root>
