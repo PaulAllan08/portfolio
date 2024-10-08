@@ -1,16 +1,10 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
-	import * as Card from '$lib/components/ui/card/index.js';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import Icon from '@iconify/svelte';
-	import { goto } from '$app/navigation';
 	import SocialsCards from '$lib/components/landingpage/socials-cards.svelte';
 	import Project_1Cards from '$lib/components/landingpage/project-1-cards.svelte';
 	import Project_2Cards from '$lib/components/landingpage/project-2-cards.svelte';
-
-	function handleProjects() {
-		goto('/app/projects');
-	}
 </script>
 
 <main>
@@ -23,7 +17,6 @@
 				></div>
 			</div>
 
-			<!-- Content (Placed on top) -->
 			<div class="absolute z-10 mt-32 space-y-8 text-center">
 				<div class="flex flex-col items-center justify-center gap-2 text-center">
 					<h1
@@ -36,13 +29,13 @@
 					</p>
 				</div>
 				<div class="flex justify-center gap-4">
-					<Button class=" p-6">Download CV</Button>
+					<Button class=" border-2 border-primary p-6">Download CV</Button>
 				</div>
-				<!-- Hero Images -->
+
 				<div class="flex items-center justify-center overflow-hidden px-4">
 					<img src="/PDRRMO.png" alt="img" class="h-32 w-auto opacity-50 md:h-96" />
 					<img
-						src="/coursequest.png"
+						src="/coursequest/coursequest.png"
 						alt="img"
 						class="h-auto w-auto rounded-xl md:max-w-4xl md:rounded-lg md:px-0"
 					/>

@@ -1,6 +1,11 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import { goto } from '$app/navigation';
+
+	function handleProjects() {
+		goto('/app/projects');
+	}
 </script>
 
 <Card.Root
@@ -13,6 +18,6 @@
 		<img src="/figma.png" alt="thumbnail" class="h-auto w-auto rounded-lg" />
 	</Card.Content>
 	<Card.Footer class="flex">
-		<Button class="z-10 w-full p-6">View project</Button>
+		<Button class="z-10 w-full p-6 " onclick={handleProjects}>View project</Button>
 	</Card.Footer>
 </Card.Root>
