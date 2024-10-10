@@ -172,14 +172,14 @@
 	</section>
 
 	<section id="about-me">
-		<div class="mt-48 flex min-h-screen justify-center overflow-hidden">
+		<div class=" flex min-h-screen justify-center overflow-hidden">
 			<div class="absolute z-0">
 				<div
 					class="mt-48 h-[200px] w-[300px] scale-110 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 opacity-15 blur-3xl md:h-[200px] md:w-[600px]"
 				></div>
 			</div>
-			<div class="absolute z-10 mt-48 space-y-12 text-center">
-				<div class="flex flex-col items-center justify-center gap-8 text-center">
+			<div class="absolute z-10 space-y-12 text-center">
+				<div class="container flex flex-col items-center justify-center gap-8 text-center">
 					<h1 class=" text-center text-3xl font-bold text-white md:text-start md:text-6xl">
 						About me
 					</h1>
@@ -191,7 +191,7 @@
 						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 						mollit anim id est laborum.
 					</p>
-					<div class="flex max-w-4xl flex-col items-center justify-center md:gap-2">
+					<div class=" flex max-w-4xl flex-col items-center justify-center md:gap-2">
 						<div class="space-y-2 text-center md:space-x-2">
 							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
 								><Icon icon="flowbite:html-solid" class="h-4 w-4" />HTML</Badge
@@ -199,6 +199,7 @@
 							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
 								><Icon icon="flowbite:css-solid" class="h-4 w-4" />CSS</Badge
 							>
+
 							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
 								><Icon icon="ri:svelte-fill" class="h-4 w-4" />Svelte</Badge
 							>
@@ -209,22 +210,13 @@
 								><Icon icon="tabler:brand-typescript" class="h-4 w-4" />Typescript</Badge
 							>
 							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
-								><Icon icon="simple-icons:drizzle" class="h-4 w-4" />Drizzle ORM</Badge
+								><Icon icon="nonicons:c-sharp-16" class="h-4 w-4" />C#</Badge
 							>
 							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
-								><Icon icon="nonicons:c-sharp-16" class="h-4 w-4" />C#</Badge
+								><Icon icon="simple-icons:drizzle" class="h-4 w-4" />Drizzle ORM</Badge
 							>
 						</div>
 						<div class="space-y-2 text-center md:space-x-2">
-							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
-								><Icon icon="ri:supabase-line" class="h-4 w-4" />Supabase</Badge
-							>
-							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
-								><Icon icon="solar:figma-outline" class="h-4 w-4" />Figma</Badge
-							>
-							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
-								><Icon icon="teenyicons:framer-outline" class="h-4 w-4" />Framer</Badge
-							>
 							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
 								><Icon icon="mdi:git" class="h-4 w-4" />Git</Badge
 							>
@@ -236,6 +228,15 @@
 							>
 							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
 								><Icon icon="simple-icons:shadcnui" class="h-4 w-4" />Shadcn</Badge
+							>
+							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
+								><Icon icon="ri:supabase-line" class="h-4 w-4" />Supabase</Badge
+							>
+							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
+								><Icon icon="solar:figma-outline" class="h-4 w-4" />Figma</Badge
+							>
+							<Badge class="items-center gap-2 px-4 py-2" variant="outline"
+								><Icon icon="teenyicons:framer-outline" class="h-4 w-4" />Framer</Badge
 							>
 						</div>
 					</div>
