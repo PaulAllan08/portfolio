@@ -3,6 +3,7 @@
 	import MobileCarousel from '$lib/components/projects/mobile-carousel.svelte';
 	import ReadiCarousel from '$lib/components/projects/readi-carousel.svelte';
 	import WebCarousel from '$lib/components/projects/web-carousel.svelte';
+	import FramerCarousel from '$lib/components/projects/framer-carousel.svelte';
 </script>
 
 <main>
@@ -98,5 +99,35 @@
 			</div>
 		</div>
 		<WebCarousel />
+		<div class=" flex flex-col items-center justify-between space-y-4">
+			<div class="absolute z-0">
+				<div
+					class="h-[200px] w-[300px] scale-110 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 opacity-15 blur-3xl md:mt-24 md:h-[400px] md:w-[600px]"
+				></div>
+			</div>
+			<div class="z-10 mt-4 space-y-4 text-center text-white md:text-center">
+				<h1 class="text-3xl font-bold md:text-4xl">Web Designs in Framer</h1>
+				<p>
+					My other web design projects in Framer<br />
+					👉<a
+						href="https://saulsample.framer.website/"
+						target="_blank"
+						class="hover:underline"
+						style="text-decoration-thickness: 1.5px">Framer Modern Portfolio Design</a
+					>👈 👉<a
+						href="https://sauldesignportfolio.framer.website/"
+						target="_blank"
+						class="hover:underline"
+						style="text-decoration-thickness: 1.5px">Framer Portfolio Website</a
+					>👈 👉<a
+						href="https://sauldesign-food-delivery.framer.website/"
+						target="_blank"
+						class="hover:underline"
+						style="text-decoration-thickness: 1.5px">Framer Food Delivery Website</a
+					>👈<br />
+				</p>
+			</div>
+		</div>
+		<FramerCarousel />
 	</section>
 </main>
