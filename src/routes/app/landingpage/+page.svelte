@@ -31,7 +31,7 @@
 				<div class="flex justify-center gap-4">
 					<Button
 						class=" border-2 border-primary p-6"
-						href="https://drive.google.com/file/d/1bL890ZLDpiCFb9sTYWqUdtUMikuofeYz/view?usp=drive_link"
+						href="https://drive.google.com/file/d/1Brjs4gfIb75Aq7qjVFu0hqq9vsH-cg-q/view?usp=drive_link"
 						target="_blank">View Resume</Button
 					>
 				</div>
