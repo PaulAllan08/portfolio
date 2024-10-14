@@ -27,7 +27,7 @@
 				<h1 class="text-3xl font-bold md:text-3xl">CourseQuest (DICT)</h1>
 				<p>
 					CourseQuest is a learning management system for DICT that I built in sveltekit framework <br
-					/>Link: 👉
+					/>👉
 					<a
 						href="https://coursequest.vercel.app/"
 						target="_blank"
@@ -61,7 +61,16 @@
 			</div>
 			<div class="z-10 mt-4 space-y-4 text-center text-white md:text-center">
 				<h1 class="text-3xl font-bold md:text-4xl">READi (PDRRMO)</h1>
-				<p>READi is an incident report app with internal system I design for PDRRMO</p>
+				<p>
+					READi is an incident report app with internal system I design with PDRRMO <br />
+					👉<a
+						href="https://www.figma.com/proto/D43PotCLLD8kevTaPX5Y9g/READi?node-id=164-4476&t=mckrVPykEA5N9CUI-1"
+						target="_blank"
+						class="hover:underline"
+						style="text-decoration-thickness: 1.5px">View READi in Figma</a
+					>
+					👈
+				</p>
 			</div>
 		</div>
 		<ReadiCarousel />

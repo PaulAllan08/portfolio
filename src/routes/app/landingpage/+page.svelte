@@ -29,7 +29,11 @@
 					</p>
 				</div>
 				<div class="flex justify-center gap-4">
-					<Button class=" border-2 border-primary p-6">Download CV</Button>
+					<Button
+						class=" border-2 border-primary p-6"
+						href="https://drive.google.com/file/d/1bL890ZLDpiCFb9sTYWqUdtUMikuofeYz/view?usp=drive_link"
+						target="_blank">View Resume</Button
+					>
 				</div>
 
 				<div class="flex items-center justify-center overflow-hidden px-4">
@@ -184,12 +188,10 @@
 						About me
 					</h1>
 					<p class="mt-2 max-w-4xl text-justify">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-						mollit anim id est laborum.
+						Hi, I'm Paul Allan Palacio, a passionate Web Developer and UI/UX Designer. My journey
+						began with C# and VB.NET, but over time, I discovered a deep love for crafting
+						beautiful, user-centered interfaces and websites. I thrive on blending creativity with
+						functionality to create engaging digital experiences.
 					</p>
 					<div class=" flex max-w-4xl flex-col items-center justify-center md:gap-2">
 						<div class="space-y-2 text-center md:space-x-2">
