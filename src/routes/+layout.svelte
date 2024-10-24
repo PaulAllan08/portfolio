@@ -1,75 +1,166 @@
 <script lang="ts">
 	import '../app.css';
-	import { writable } from 'svelte/store';
+	import { cn } from '$lib/utils';
+	import Button from '$lib/components/ui/button/button.svelte';
 	import { AlignJustifyIcon } from 'lucide-svelte';
 	import { page } from '$app/stores';
-	import { cn } from '$lib/utils';
+	import { Separator } from '$lib/components/ui/separator/index.js';
 
-	const isMenuOpen = writable(false);
-
-	function toggleMenu() {
-		isMenuOpen.update((v) => !v);
-	}
+	let sidebarOpen = $state(false);
 
 	let { children } = $props();
+
+	function toggleSidebar() {
+		sidebarOpen = !sidebarOpen;
+	}
 
 	function isActive(href: string): boolean {
 		return $page.url.pathname === href;
 	}
 </script>
 
-<nav class="bg-transparent">
-	<div
-		class="container flex flex-col items-end justify-end border-b bg-transparent py-6 md:flex-row md:items-center md:justify-center"
-	>
-		<button
-			class="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-primary focus:bg-primary focus:outline-none md:hidden"
-			onclick={toggleMenu}
-			aria-label="Main menu"
-			aria-expanded={$isMenuOpen}
-		>
-			<AlignJustifyIcon class="h-6 w-6" />
-		</button>
+<aside
+	class={cn(
+		' fixed left-0 top-0 z-50 flex min-h-screen w-48 -translate-x-full flex-col border-r bg-white p-4 transition-transform md:translate-x-0 md:bg-transparent',
+		sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+	)}
+>
+	<!-- <a href="/" class="block">
+		<div class="flex flex-1 items-start justify-start space-y-4 py-4">
+			<h1 class="text-sm font-bold text-primary">Paul Allan Palacio</h1>
+		</div>
+	</a>
+	<Separator class=" my-4" /> -->
+	<div class="flex flex-col space-y-5">
+		<div class="flex-1 overflow-y-auto">
+			<h1 class="py-2 text-sm text-slate-400">About me</h1>
+			<ul class=" text-sm">
+				<li>
+					<a
+						href="/admin/dashboard"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>CV</span>
+					</a>
+				</li>
+				<li>
+					<a
+						href="/admin/dashboard"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Contact</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<Separator class="my-4" />
+		<div class="flex-1 overflow-y-auto">
+			<h1 class="py-2 text-sm text-slate-400">Web Development</h1>
+			<ul class=" text-sm">
+				<li>
+					<a
+						href="/web-dev"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Full Stack</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<Separator class="my-4" />
+		<div class="flex-1 overflow-y-auto">
+			<h1 class="py-2 text-sm text-slate-400">Web Designs</h1>
+			<ul class=" text-sm">
+				<li>
+					<a
+						href="/web-design"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Figma</span>
+					</a>
+				</li>
+				<li>
+					<a
+						href="/admin/categories"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/categories') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Framer</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<Separator class="my-4" />
+		<div class="flex-1 overflow-y-auto">
+			<h1 class="py-2 text-sm text-slate-400">Socials</h1>
+			<ul class=" text-sm">
+				<li>
+					<a
+						href="/admin/dashboard"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Linkedin</span>
+					</a>
+				</li>
 
-		<div class="hidden gap-12 bg-transparent text-white md:flex">
-			<a
-				href="/app/landingpage"
-				class={cn(
-					'relative hover:text-purple-500',
-					isActive('/app/landingpage')
-						? 'text-purple-400 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:rounded-full after:bg-purple-400 hover:after:bg-purple-500'
-						: ''
-				)}>Home</a
-			>
-			<a
-				href="/app/projects"
-				class={cn(
-					'relative hover:text-purple-500',
-					isActive('/app/projects')
-						? 'text-purple-400 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:rounded-full after:bg-purple-400 hover:after:bg-purple-500'
-						: ''
-				)}>Projects</a
-			>
-			<a
-				href="#about-me"
-				class={cn(
-					'relative hover:text-purple-500',
-					isActive('#about-me')
-						? 'text-purple-400 after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:rounded-full after:bg-purple-400 hover:after:bg-purple-500'
-						: ''
-				)}>About me</a
-			>
+				<li>
+					<a
+						href="/admin/dashboard"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Dribble</span>
+					</a>
+				</li>
+				<li>
+					<a
+						href="/admin/dashboard"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Github</span>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
+</aside>
 
-	{#if $isMenuOpen}
-		<div class="flex flex-col items-center space-y-4 py-4 md:hidden">
-			<a href="/" class="block px-4 py-2 text-white hover:text-purple-500">Home</a>
-			<a href="/app/projects" class="block px-4 py-2 text-white hover:text-purple-500">Projects</a>
-			<a href="/" class="block px-4 py-2 text-white hover:text-purple-500">About me</a>
+<div class="flex min-h-screen flex-col md:ml-48">
+	<header class="flex h-20 w-full border-b bg-white md:hidden">
+		<div class="container flex h-full items-center justify-between">
+			<a href="/">
+				<h1 class="text-3xl font-bold">CourseQuest</h1>
+			</a>
+
+			<Button size="icon" variant="ghost" onclick={toggleSidebar}>
+				<AlignJustifyIcon />
+			</Button>
 		</div>
-	{/if}
-</nav>
+	</header>
 
-{@render children()}
-<footer></footer>
+	<main class="flex-1 py-10">
+		{@render children()}
+	</main>
+</div>
