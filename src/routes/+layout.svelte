@@ -25,19 +25,24 @@
 		sidebarOpen ? 'translate-x-0' : '-translate-x-full'
 	)}
 >
-	<!-- <a href="/" class="block">
-		<div class="flex flex-1 items-start justify-start space-y-4 py-4">
-			<h1 class="text-sm font-bold text-primary">Paul Allan Palacio</h1>
-		</div>
-	</a>
-	<Separator class=" my-4" /> -->
 	<div class="flex flex-col space-y-5">
 		<div class="flex-1 overflow-y-auto">
-			<h1 class="py-2 text-sm text-slate-400">About me</h1>
+			<h1 class="py-2 text-sm text-slate-400">About Me</h1>
 			<ul class=" text-sm">
 				<li>
 					<a
-						href="/admin/dashboard"
+						href="/about-me"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Introduction</span>
+					</a>
+				</li>
+				<li>
+					<a
+						href="/about-me"
 						class={cn(
 							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
 							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
@@ -48,7 +53,7 @@
 				</li>
 				<li>
 					<a
-						href="/admin/dashboard"
+						href="/about-me"
 						class={cn(
 							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
 							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
@@ -65,7 +70,7 @@
 			<ul class=" text-sm">
 				<li>
 					<a
-						href="/web-dev"
+						href="/web-dev/coursequest"
 						class={cn(
 							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
 							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
@@ -82,7 +87,7 @@
 			<ul class=" text-sm">
 				<li>
 					<a
-						href="/web-design"
+						href="/web-design/figma/readi"
 						class={cn(
 							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
 							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
@@ -93,7 +98,7 @@
 				</li>
 				<li>
 					<a
-						href="/admin/categories"
+						href="/web-design/framer"
 						class={cn(
 							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
 							isActive('/admin/categories') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
@@ -110,19 +115,7 @@
 			<ul class=" text-sm">
 				<li>
 					<a
-						href="/admin/dashboard"
-						class={cn(
-							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
-							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
-						)}
-					>
-						<span>Linkedin</span>
-					</a>
-				</li>
-
-				<li>
-					<a
-						href="/admin/dashboard"
+						href="/socials"
 						class={cn(
 							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
 							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
@@ -133,13 +126,24 @@
 				</li>
 				<li>
 					<a
-						href="/admin/dashboard"
+						href="/socials"
 						class={cn(
 							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
 							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
 						)}
 					>
 						<span>Github</span>
+					</a>
+				</li>
+				<li>
+					<a
+						href="/socials"
+						class={cn(
+							'flex items-center space-x-2 rounded p-1 font-medium hover:bg-secondary',
+							isActive('/admin/dashboard') ? 'bg-sky-400 text-white hover:bg-sky-400' : ''
+						)}
+					>
+						<span>Linkedin</span>
 					</a>
 				</li>
 			</ul>
