@@ -27,7 +27,7 @@
 		</div>
 		{#if section === 'about'}
 			<div>
-				<div class="text-lg font-bold text-primary md:text-3xl">
+				<div class="text-xl font-bold text-primary md:text-3xl">
 					Hi, I'm Paul Allan Palacio, a passionate Web Developer and UI/UX Designer. My journey
 					began with C# and VB.NET, but over time, I discovered a deep love for crafting beautiful,
 					user-centered interfaces and websites. I thrive on blending creativity with functionality
@@ -37,7 +37,7 @@
 			<div>
 				<Separator class=" my-12 " />
 			</div>
-			<div class="grid grid-cols-7 gap-6 py-4">
+			<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-7">
 				<div
 					class="col-span-2 row-span-4 rounded-lg border bg-white shadow-md transition hover:scale-105"
 				>
@@ -68,7 +68,7 @@
 					onclick={() => toggleSection('buildingTools')}
 				>
 					<div
-						class="flex cursor-pointer items-center justify-center gap-4 px-24 py-12 font-bold text-slate-400 hover:text-primary hover:underline"
+						class="flex cursor-pointer items-center justify-center gap-4 px-16 py-12 font-bold text-slate-400 hover:text-primary hover:underline md:px-24"
 					>
 						Tools I Use for Building a Website
 						<MoveRight />
@@ -77,15 +77,15 @@
 			</div>
 		{:else if section === 'buildingTools'}
 			<div class="slide-in transform transition-transform">
-				<div class="text-lg font-bold text-primary md:text-3xl">
+				<div class="text-xl font-bold text-primary md:text-3xl">
 					Here are the languages & tools I use for building websites:
 				</div>
 				<div>
 					<Separator class=" my-12 " />
 				</div>
 
-				<div class="grid grid-cols-7 gap-6 py-4">
-					<div class="col-span-4 row-span-4 grid grid-cols-3 gap-4 rounded-lg p-4">
+				<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-7">
+					<div class="col-span-4 row-span-4 grid grid-cols-2 gap-4 rounded-lg p-4 md:grid-cols-3">
 						<Badge
 							class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-orange-500 hover:text-orange-500"
 							variant="outline"
@@ -153,7 +153,7 @@
 						onclick={() => toggleSection('designingTools')}
 					>
 						<div
-							class="flex cursor-pointer items-center justify-center gap-4 px-24 py-12 font-bold text-slate-400 hover:text-primary hover:underline"
+							class="flex cursor-pointer items-center justify-center gap-4 px-12 py-12 font-bold text-slate-400 hover:text-primary hover:underline md:px-24"
 						>
 							Tools I Use for Designing a Website
 							<MoveRight />
@@ -163,15 +163,15 @@
 			</div>
 		{:else if section === 'designingTools'}
 			<div class="slide-in transform transition-transform">
-				<div class="text-lg font-bold text-primary md:text-3xl">
+				<div class="text-xl font-bold text-primary md:text-3xl">
 					Here are the tools I use for designing websites:
 				</div>
 				<div>
 					<Separator class=" my-12 " />
 				</div>
 
-				<div class="grid grid-cols-7 gap-6 py-4">
-					<div class="col-span-4 row-span-3 grid grid-cols-3 gap-4 rounded-lg p-4">
+				<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-7">
+					<div class="col-span-4 row-span-4 grid grid-cols-2 gap-4 rounded-lg p-4 md:grid-cols-3">
 						<Badge
 							class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-purple-500 hover:text-purple-500"
 							variant="outline"><Icon icon="solar:figma-outline" class="h-4 w-4 " />Figma</Badge
@@ -196,7 +196,7 @@
 						onclick={() => toggleSection('about')}
 					>
 						<div
-							class="flex cursor-pointer items-center justify-center gap-4 px-24 py-12 font-bold text-slate-400 hover:text-primary hover:underline"
+							class="flex cursor-pointer items-center justify-center gap-4 px-12 py-12 font-bold text-slate-400 hover:text-primary hover:underline md:px-24"
 						>
 							<MoveLeft />About Me
 						</div>

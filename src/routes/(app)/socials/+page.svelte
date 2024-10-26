@@ -17,14 +17,14 @@
 			<h1 class="text-slate-400">Socials</h1>
 		</div>
 		<div>
-			<div class="text-lg font-bold text-primary md:text-3xl">
+			<div class="text-xl font-bold text-primary md:text-3xl">
 				You can visit my socials. View my other design projects in Dribble, View my code related
 				projects in github and you can check my credentials in linkedin
 			</div>
 			<div>
 				<Separator class=" my-12 " />
 			</div>
-			<div class=" grid grid-cols-9 gap-6 py-4">
+			<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-7">
 				<div
 					class="col-span-2 row-span-4 rounded-lg border bg-white shadow-md transition duration-300 ease-in-out hover:scale-105"
 					style="background-attachment: /readi/dashboard-air.png;"
@@ -79,7 +79,7 @@
 				</div> -->
 				<div class="col-span-3 row-span-4 transition duration-300 ease-in-out hover:scale-105">
 					<div
-						class="flex items-center justify-center gap-4 px-24 py-8 font-bold text-slate-400 transition duration-300 ease-in-out hover:text-primary hover:underline"
+						class="flex items-center justify-center gap-4 px-12 py-8 font-bold text-slate-400 transition duration-300 ease-in-out hover:text-primary hover:underline md:px-24"
 						style="text-decoration-thickness: 1.5px"
 					>
 						Thank you for visiting my portfolio

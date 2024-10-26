@@ -10,7 +10,7 @@
 			<h1 class="text-slate-400">Web Development Projects</h1>
 		</div>
 		<div>
-			<div class="text-3xl font-bold text-primary">CourseQuest LMS</div>
+			<div class="text-2xl font-bold text-primary md:text-3xl">CourseQuest LMS</div>
 			<h1 class="font-medium text-slate-400">
 				A learning management system for IT courses that I developed for DICT (Department of
 				Information and Communication Technology). CourseQuest is built in svelte framework with
@@ -21,7 +21,7 @@
 		<div>
 			<Separator class="  my-12 " />
 		</div>
-		<div class="grid grid-cols-3 gap-6 py-4">
+		<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-3">
 			<div class="row-span-4 transition duration-300 ease-in-out hover:scale-105">
 				<div class=" rounded-lg bg-white shadow-md">
 					<img
