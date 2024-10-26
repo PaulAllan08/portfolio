@@ -24,7 +24,7 @@
 			<div>
 				<Separator class=" my-12 " />
 			</div>
-			<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-7">
+			<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-9">
 				<div
 					class="col-span-2 row-span-4 rounded-lg border bg-white shadow-md transition duration-300 ease-in-out hover:scale-105"
 					style="background-attachment: /readi/dashboard-air.png;"
