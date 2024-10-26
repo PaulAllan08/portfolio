@@ -64,12 +64,25 @@
 						><Icon icon="ri:linkedin-fill" class="mb-1 h-7 w-7" />
 					</div>
 				</div>
-				<div class="col-span-3 row-span-4 transition duration-300 ease-in-out hover:scale-105">
+				<!-- <div
+					class="col-span-2 row-span-4 rounded-lg border bg-white shadow-md transition duration-300 ease-in-out hover:scale-105"
+				>
 					<div
-						class="flex items-center justify-center gap-4 px-24 py-12 font-bold text-slate-400 transition duration-300 ease-in-out hover:text-primary hover:underline"
+						class="flex items-center justify-center gap-4 px-0 py-12 font-bold text-slate-400 transition duration-300 ease-in-out hover:text-primary hover:underline"
 						style="text-decoration-thickness: 1.5px"
 					>
-						<a href="/web-dev">Tools I use</a><MoveRight />
+						<a href="https://www.figma.com/@SaulDesign08" target="_blank">Figma Profile</a><Icon
+							icon="ri:linkedin-fill"
+							class="mb-1 h-7 w-7"
+						/>
+					</div>
+				</div> -->
+				<div class="col-span-3 row-span-4 transition duration-300 ease-in-out hover:scale-105">
+					<div
+						class="flex items-center justify-center gap-4 px-24 py-8 font-bold text-slate-400 transition duration-300 ease-in-out hover:text-primary hover:underline"
+						style="text-decoration-thickness: 1.5px"
+					>
+						Thank you for visiting my portfolio
 					</div>
 				</div>
 			</div>

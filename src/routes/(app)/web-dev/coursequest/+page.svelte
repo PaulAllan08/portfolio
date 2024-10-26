@@ -88,13 +88,12 @@
 					class="flex items-center justify-center gap-4 rounded-lg border bg-white px-24 py-12 font-bold text-slate-400 shadow-md transition duration-300 ease-in-out hover:text-primary hover:underline"
 					style="text-decoration-thickness: 1.5px"
 				>
-					<a
-						href="https://www.figma.com/proto/D43PotCLLD8kevTaPX5Y9g/READi?node-id=591-1212&t=Po0WXy2FWHnlA5Z2-1"
-						target="_blank">View Design in Figma</a
-					><ExternalLink />
+					<a href="https://coursequest.vercel.app/" target="_blank"
+						>coursequest.vercel.app
+					</a><ExternalLink />
 				</div>
 				<div class=" mt-2 flex justify-between">
-					<h1 class="font-medium text-slate-400">Prototype Link</h1>
+					<h1 class="font-medium text-slate-400">Website URL</h1>
 					<h1 class="font-medium text-slate-400">2024</h1>
 				</div>
 			</div>

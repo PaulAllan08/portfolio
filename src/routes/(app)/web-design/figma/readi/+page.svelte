@@ -47,7 +47,7 @@
 				<div class="rounded-lg border bg-white shadow-md">
 					<img
 						src="/readi/dashboard-air.png"
-						alt="Project 03"
+						alt="READi"
 						class="h-full w-full rounded-lg object-cover"
 					/>
 				</div>
@@ -59,11 +59,7 @@
 			</div>
 			<div class="row-span-4 transition duration-300 ease-in-out hover:scale-105">
 				<div class="rounded-lg border bg-white shadow-md">
-					<img
-						src="/readi/report.png"
-						alt="Project 03"
-						class="h-full w-full rounded-lg object-cover"
-					/>
+					<img src="/readi/report.png" alt="READi" class="h-full w-full rounded-lg object-cover" />
 				</div>
 
 				<div class="mt-2 flex justify-between">
@@ -74,20 +70,12 @@
 			<div
 				class="row-span-6 rounded-lg border bg-white shadow-md transition duration-300 ease-in-out hover:scale-105"
 			>
-				<img
-					src="/readi/mobile.png"
-					alt="Project 05"
-					class="h-full w-full rounded-lg object-cover"
-				/>
+				<img src="/readi/mobile.png" alt="READi" class="h-full w-full rounded-lg object-cover" />
 			</div>
 
 			<div class="row-span-4 transition duration-300 ease-in-out hover:scale-105">
 				<div class="rounded-lg border bg-white shadow-md">
-					<img
-						src="/readi/deploy.png"
-						alt="Project 03"
-						class="h-full w-full rounded-lg object-cover"
-					/>
+					<img src="/readi/deploy.png" alt="READi" class="h-full w-full rounded-lg object-cover" />
 				</div>
 
 				<div class="mt-2 flex justify-between">
@@ -100,7 +88,7 @@
 				<div class="rounded-lg border bg-white shadow-md">
 					<img
 						src="/readi/mobile-screens.png"
-						alt="Project 03"
+						alt="READi"
 						class="h-full w-full rounded-lg object-cover"
 					/>
 				</div>
