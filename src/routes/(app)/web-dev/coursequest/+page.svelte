@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SendHorizontalIcon, FileUserIcon, ExternalLink } from 'lucide-svelte';
+	import { ExternalLink } from 'lucide-svelte';
 	import { Separator } from '$lib/components/ui/separator/index.js';
 </script>
 

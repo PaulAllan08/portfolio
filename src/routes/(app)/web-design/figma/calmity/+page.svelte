@@ -1,11 +1,5 @@
 <script lang="ts">
-	import {
-		SendHorizontalIcon,
-		FileUserIcon,
-		ExternalLink,
-		MoveRight,
-		MoveLeft
-	} from 'lucide-svelte';
+	import { ExternalLink, MoveRight, MoveLeft } from 'lucide-svelte';
 	import { Separator } from '$lib/components/ui/separator/index.js';
 </script>
 

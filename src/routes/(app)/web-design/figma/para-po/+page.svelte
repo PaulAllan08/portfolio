@@ -1,11 +1,5 @@
 <script lang="ts">
-	import {
-		SendHorizontalIcon,
-		FileUserIcon,
-		ExternalLink,
-		MoveRight,
-		MoveLeft
-	} from 'lucide-svelte';
+	import { ExternalLink, MoveLeft } from 'lucide-svelte';
 	import { Separator } from '$lib/components/ui/separator/index.js';
 </script>
 
@@ -36,7 +30,7 @@
 		<div>
 			<Separator class="  my-12 " />
 		</div>
-		<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-3">
+		<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">
 			<div class="row-span-2 transition duration-300 ease-in-out hover:scale-105">
 				<div
 					class="flex items-center justify-center gap-4 rounded-lg border bg-white px-12 py-12 font-bold text-slate-400 shadow-md transition duration-300 ease-in-out hover:text-primary hover:underline md:px-24"
@@ -68,7 +62,6 @@
 				</div>
 			</div>
 
-			<!--fsadkfhjhbsdajhfbsdf-->
 			<div
 				class="row-span-6 rounded-lg border bg-white shadow-md transition duration-300 ease-in-out hover:scale-105"
 			>

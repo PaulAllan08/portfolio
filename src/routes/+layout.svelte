@@ -155,7 +155,7 @@
 	<header class="flex h-20 w-full border-b bg-white md:hidden">
 		<div class="container flex h-full items-center justify-between">
 			<a href="/">
-				<h1 class="text-3xl font-bold">CourseQuest</h1>
+				<h1 class="text-3xl font-bold">Portfolio</h1>
 			</a>
 
 			<Button size="icon" variant="ghost" onclick={toggleSidebar}>
