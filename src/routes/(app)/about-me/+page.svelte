@@ -1,14 +1,8 @@
 <script lang="ts">
-	import { FileUserIcon, MoveRight, MessageCircleCode, MoveLeft } from 'lucide-svelte';
+	import { FileUserIcon, MessageCircleCode } from 'lucide-svelte';
 	import { Separator } from '$lib/components/ui/separator/index.js';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import Icon from '@iconify/svelte';
-
-	let section = 'about';
-
-	function toggleSection(nextSection: string) {
-		section = nextSection;
-	}
 </script>
 
 <main class=" container">
@@ -36,7 +30,7 @@
 					class="flex items-center justify-center gap-4 px-0 py-12 font-bold text-slate-400 transition-all duration-300 ease-in-out hover:scale-105 hover:text-primary hover:underline"
 				>
 					<a
-						href="https://drive.google.com/file/d/1Brjs4gfIb75Aq7qjVFu0hqq9vsH-cg-q/view?usp=drive_link"
+						href="https://drive.google.com/file/d/143vX1IuLYApdHW0q3Z8pvjU-bqQPipa4/view?usp=drive_link"
 						target="_blank"
 					>
 						View CV/Resume
@@ -122,8 +116,17 @@
 					variant="outline"><Icon icon="simple-icons:drizzle" class="h-4 w-4" />Drizzle ORM</Badge
 				>
 				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-lime-500 hover:text-lime-500"
+					variant="outline"
+					><Icon icon="akar-icons:postgresql-fill" class="h-4 w-4" />PostgresSql</Badge
+				>
+				<Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-red-600 hover:text-red-600"
 					variant="outline"><Icon icon="mdi:git" class="h-4 w-4" />Git</Badge
+				>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-red-600 hover:text-red-600"
+					variant="outline"><Icon icon="mdi:git" class="h-4 w-4" />Git Bash</Badge
 				>
 				<Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-primary hover:text-primary"
@@ -132,6 +135,10 @@
 				<Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-primary hover:text-primary"
 					variant="outline"><Icon icon="gg:vercel" class="h-4 w-4" />Vercel</Badge
+				>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-blue-500 hover:text-blue-500"
+					variant="outline"><Icon icon="mdi:docker" class="h-4 w-4" />Docker</Badge
 				>
 				<!-- <Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-primary hover:text-primary"

@@ -23,6 +23,9 @@ importers:
       lucide-svelte:
         specifier: ^0.447.0
         version: 0.447.0(svelte@5.0.0-next.262)
+      svelte-medium-image-zoom:
+        specifier: ^0.1.5
+        version: 0.1.5(svelte@5.0.0-next.262)
       sveltekit-superforms:
         specifier: ^2.19.1
         version: 2.19.1(@sveltejs/kit@2.6.1(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8))(svelte@5.0.0-next.262)(vite@5.4.8))(@types/json-schema@7.0.15)(svelte@5.0.0-next.262)
@@ -1644,6 +1647,11 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte-medium-image-zoom@0.1.5:
+    resolution: {integrity: sha512-0JXAKlEOlx7C+/DweO7MCDa/9FsKAGdYhXa7AcqNwmYgXunb8q++Z3CLtS7X1epHJMskZl8QiFAtnj2fH3NSSQ==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte@5.0.0-next.262:
     resolution: {integrity: sha512-gAY0POArLN5yI/ihvItG0wQCh7ycfvxSvvVlvPECshFKmR/ep6ZAlqX50+aUGDSG/5megFqnSJfP7piC6lOtew==}
@@ -3326,6 +3334,10 @@ snapshots:
       postcss: 8.4.47
       postcss-scss: 4.0.9(postcss@8.4.47)
     optionalDependencies:
+      svelte: 5.0.0-next.262
+
+  svelte-medium-image-zoom@0.1.5(svelte@5.0.0-next.262):
+    dependencies:
       svelte: 5.0.0-next.262
 
   svelte@5.0.0-next.262:

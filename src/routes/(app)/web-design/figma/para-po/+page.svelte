@@ -1,20 +1,21 @@
 <script lang="ts">
 	import { ExternalLink, MoveLeft } from 'lucide-svelte';
 	import { Separator } from '$lib/components/ui/separator/index.js';
+	import Zoom from 'svelte-medium-image-zoom';
+	import 'svelte-medium-image-zoom/dist/styles.css';
 </script>
 
 <main class="space-24 container">
-	<!-- Web Development Projects -->
 	<div class="-mt-4 space-y-4">
 		<div class="flex justify-between">
 			<a
-				class="flex gap-4 text-slate-400 transition-all duration-300 ease-in-out hover:text-primary hover:underline"
+				class="flex gap-4 text-primary transition-all duration-300 ease-in-out hover:text-primary hover:underline"
 				style="text-decoration-thickness: 1.5px;"
 				href="./calmity"
 				><MoveLeft />Go Back
 			</a>
 			<a
-				class="flex gap-4 text-slate-400 transition-all duration-300 ease-in-out hover:text-primary hover:underline"
+				class="flex gap-4 text-primary transition-all duration-300 ease-in-out hover:text-primary hover:underline"
 				style="text-decoration-thickness: 1.5px;"
 				href="/socials">View Other Projects <ExternalLink /></a
 			>
@@ -33,7 +34,7 @@
 		<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">
 			<div class="row-span-2 transition duration-300 ease-in-out hover:scale-105">
 				<div
-					class="flex items-center justify-center gap-4 rounded-lg border bg-white px-12 py-12 font-bold text-slate-400 shadow-md transition duration-300 ease-in-out hover:text-primary hover:underline md:px-24"
+					class="flex items-center justify-center gap-4 overflow-hidden rounded-lg border bg-white px-12 py-12 font-bold text-slate-400 shadow-md transition duration-300 ease-in-out hover:text-primary hover:underline md:px-24"
 					style="text-decoration-thickness: 1.5px"
 				>
 					<a
@@ -47,23 +48,25 @@
 				</div>
 			</div>
 
-			<div class="row-span-4 transition duration-300 ease-in-out hover:scale-105">
-				<div class="rounded-lg border bg-white shadow-md">
-					<img
-						src="/para-po/mobile-screens-1.png"
-						alt="para po"
-						class="h-full w-full rounded-lg object-cover"
-					/>
-				</div>
+			<div class="row-span-4 overflow-hidden transition duration-300 ease-in-out hover:scale-105">
+				<Zoom>
+					<div class="rounded-lg border bg-white shadow-md">
+						<img
+							src="/para-po/mobile-screens-1.png"
+							alt="para po"
+							class="h-full w-full rounded-lg object-cover"
+						/>
+					</div>
 
-				<div class=" mt-2 flex justify-between">
-					<h1 class="font-medium text-slate-400">Drivers App</h1>
-					<h1 class="font-medium text-slate-400">2024</h1>
-				</div>
+					<div class=" mt-2 flex justify-between">
+						<h1 class="font-medium text-slate-400">Drivers App</h1>
+						<h1 class="font-medium text-slate-400">2024</h1>
+					</div>
+				</Zoom>
 			</div>
 
 			<div
-				class="row-span-6 rounded-lg border bg-white shadow-md transition duration-300 ease-in-out hover:scale-105"
+				class="row-span-6 overflow-hidden rounded-lg border bg-white shadow-md transition duration-300 ease-in-out hover:scale-105"
 			>
 				<img
 					src="/para-po/mobile.png"
@@ -72,19 +75,21 @@
 				/>
 			</div>
 
-			<div class="row-span-4 transition duration-300 ease-in-out hover:scale-105">
-				<div class="rounded-lg border bg-white shadow-md">
-					<img
-						src="/para-po/mobile-screens-2.png"
-						alt="para po"
-						class="h-full w-full rounded-lg object-cover"
-					/>
-				</div>
+			<div class="row-span-4 overflow-hidden transition duration-300 ease-in-out hover:scale-105">
+				<Zoom>
+					<div class="rounded-lg border bg-white shadow-md">
+						<img
+							src="/para-po/mobile-screens-2.png"
+							alt="para po"
+							class="h-full w-full rounded-lg object-cover"
+						/>
+					</div>
 
-				<div class=" mt-2 flex justify-between">
-					<h1 class=" font-medium text-slate-400">PWDs App</h1>
-					<h1 class="font-medium text-slate-400">2024</h1>
-				</div>
+					<div class=" mt-2 flex justify-between">
+						<h1 class=" font-medium text-slate-400">PWDs App</h1>
+						<h1 class="font-medium text-slate-400">2024</h1>
+					</div>
+				</Zoom>
 			</div>
 		</div>
 	</div>
