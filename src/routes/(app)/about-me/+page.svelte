@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { FileUserIcon, MessageCircleCode } from 'lucide-svelte';
 	import { Separator } from '$lib/components/ui/separator/index.js';
-	import Badge from '$lib/components/ui/badge/badge.svelte';
+	import { Badge } from '$lib/components/ui/badge';
 	import Icon from '@iconify/svelte';
 </script>
 

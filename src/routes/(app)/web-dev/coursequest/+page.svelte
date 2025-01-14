@@ -3,15 +3,16 @@
 	import { Separator } from '$lib/components/ui/separator/index.js';
 	import Zoom from 'svelte-medium-image-zoom';
 	import 'svelte-medium-image-zoom/dist/styles.css';
+	import Icon from '@iconify/svelte';
+	import { Badge } from '$lib/components/ui/badge';
 </script>
 
 <main class="container space-y-24">
-	<!-- Web Development Projects -->
 	<div class="-mt-4 space-y-4">
 		<div>
 			<h1 class="text-slate-400">Web Development Projects</h1>
 		</div>
-		<div>
+		<div class="space-y-2">
 			<div class="text-2xl font-bold text-primary md:text-3xl">CourseQuest LMS</div>
 			<h1 class="font-medium text-slate-400">
 				A learning management system for IT courses my CAPSTONE Project that I developed and propose
@@ -19,7 +20,46 @@
 				built in sveltekit framework with svelte, tailwindCSS, shadcnUI for frontend and typescript,
 				drizzle ORM and supabase for backend .
 			</h1>
+			<div class="grid grid-cols-1 gap-4 py-4 md:grid-cols-4">
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-red-600 hover:text-red-600"
+					variant="outline"
+				>
+					<Icon icon="ri:svelte-fill" class="h-4 w-4" />Svelte
+				</Badge>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-red-600 hover:text-red-600"
+					variant="outline"
+				>
+					<Icon icon="ri:svelte-fill" class="h-4 w-4" />Sveltekit
+				</Badge>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-sky-400 hover:text-sky-400"
+					variant="outline"
+				>
+					<Icon icon="mdi:tailwind" class="h-4 w-4" />Tailwind CSS
+				</Badge>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-sky-700 hover:text-sky-700"
+					variant="outline"
+				>
+					<Icon icon="tabler:brand-typescript" class="h-4 w-4" />Typescript
+				</Badge>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-primary hover:text-primary"
+					variant="outline"><Icon icon="simple-icons:shadcnui" class="h-4 w-4" />Shadcn</Badge
+				>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-green-500 hover:text-green-500"
+					variant="outline"><Icon icon="ri:supabase-line" class="h-4 w-4" />Supabase</Badge
+				>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-lime-500 hover:text-lime-500"
+					variant="outline"><Icon icon="simple-icons:drizzle" class="h-4 w-4" />Drizzle ORM</Badge
+				>
+			</div>
 		</div>
+
 		<div>
 			<Separator class="  my-12 " />
 		</div>

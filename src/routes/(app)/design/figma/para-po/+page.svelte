@@ -17,7 +17,8 @@
 			<a
 				class="flex gap-4 text-primary transition-all duration-300 ease-in-out hover:text-primary hover:underline"
 				style="text-decoration-thickness: 1.5px;"
-				href="/socials">View Other Projects <ExternalLink /></a
+				href="https://www.figma.com/@SaulDesign08"
+				target="_blank">View My Other Designs in Figma <ExternalLink /></a
 			>
 		</div>
 		<div class="space-y-2">
@@ -37,13 +38,11 @@
 					class="flex items-center justify-center gap-4 overflow-hidden rounded-lg border bg-white px-12 py-12 font-bold text-slate-400 shadow-md transition duration-300 ease-in-out hover:text-primary hover:underline md:px-24"
 					style="text-decoration-thickness: 1.5px"
 				>
-					<a
-						href="https://www.figma.com/proto/b1TKt1uwUnvnsodHDkf94U/Para-po-%2B?node-id=0-1&t=lq7Vz5eH3kBzE0j9-1"
-						target="_blank">View Design in Figma</a
+					<a href="https://www.figma.com/@SaulDesign08" target="_blank">My Figma Profile</a
 					><ExternalLink />
 				</div>
 				<div class=" mt-2 flex justify-between">
-					<h1 class="font-medium text-slate-400">Prototype Link</h1>
+					<h1 class="font-medium text-slate-400">Community Profile Link</h1>
 					<h1 class="font-medium text-slate-400">2024</h1>
 				</div>
 			</div>
