@@ -23,7 +23,7 @@
 				<img
 					src="/framer/food-mockup-whole.png"
 					alt="para po"
-					class="h-full w-full rounded-lg object-cover md:h-[110svh]"
+					class="h-full w-full rounded-lg object-cover md:h-[120svh]"
 				/>
 			</div>
 			<div class="row-span-4 overflow-hidden transition duration-300 ease-in-out hover:scale-105">
