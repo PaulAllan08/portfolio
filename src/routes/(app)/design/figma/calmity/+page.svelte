@@ -11,13 +11,14 @@
 			<a
 				class="flex gap-4 text-primary transition-all duration-300 ease-in-out hover:text-primary hover:underline"
 				style="text-decoration-thickness: 1.5px;"
-				href="./readi"
+				href="./para-po"
 				><MoveLeft />Go Back
 			</a>
 			<a
 				class="flex gap-4 text-primary transition-all duration-300 ease-in-out hover:text-primary hover:underline"
 				style="text-decoration-thickness: 1.5px;"
-				href="./para-po">Next <MoveRight /></a
+				href="https://www.figma.com/@SaulDesign08"
+				target="_blank">View My Other Designs in Figma <ExternalLink /></a
 			>
 		</div>
 		<div class="space-y-2">

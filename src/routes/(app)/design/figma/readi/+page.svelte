@@ -12,7 +12,7 @@
 			<a
 				class="flex gap-4 text-primary transition-all duration-300 ease-in-out hover:text-primary hover:underline"
 				style="text-decoration-thickness: 1.5px;"
-				href="./calmity">Next <MoveRight /></a
+				href="./para-po">Next <MoveRight /></a
 			>
 		</div>
 		<div class="space-y-2">
