@@ -83,21 +83,6 @@
 				<Zoom>
 					<div class=" rounded-lg border bg-white shadow-md">
 						<img
-							src="/coursequest/reg.png"
-							alt="Project 02"
-							class="h-full w-full rounded-lg object-cover"
-						/>
-					</div>
-					<div class=" mt-2 flex justify-between">
-						<h1 class="font-medium text-slate-400">Register</h1>
-						<h1 class="font-medium text-slate-400">2024</h1>
-					</div>
-				</Zoom>
-			</div>
-			<div class="row-span-4 overflow-hidden transition duration-300 ease-in-out hover:scale-105">
-				<Zoom>
-					<div class=" rounded-lg border bg-white shadow-md">
-						<img
 							src="/coursequest/prev.png"
 							alt="Project 03"
 							class="h-full w-full rounded-lg object-cover"
@@ -128,13 +113,28 @@
 				<Zoom>
 					<div class=" rounded-lg border bg-white shadow-md">
 						<img
+							src="/coursequest/cat-crud.png"
+							alt="Project 04"
+							class="h-full w-full rounded-lg object-cover"
+						/>
+					</div>
+					<div class=" mt-2 flex justify-between">
+						<h1 class="font-medium text-slate-400">Category Creation</h1>
+						<h1 class="font-medium text-slate-400">2024</h1>
+					</div>
+				</Zoom>
+			</div>
+			<div class="row-span-4 overflow-hidden transition duration-300 ease-in-out hover:scale-105">
+				<Zoom>
+					<div class=" rounded-lg border bg-white shadow-md">
+						<img
 							src="/coursequest/course-crud.png"
 							alt="Project 03"
 							class="h-full w-full rounded-lg object-cover"
 						/>
 					</div>
 					<div class=" mt-2 flex justify-between">
-						<h1 class="font-medium text-slate-400">Admin Course CRUD</h1>
+						<h1 class="font-medium text-slate-400">Admin Course Creation</h1>
 						<h1 class="font-medium text-slate-400">2024</h1>
 					</div>
 				</Zoom>
@@ -144,13 +144,13 @@
 				<Zoom>
 					<div class=" rounded-lg border bg-white shadow-md">
 						<img
-							src="/coursequest/cat-crud.png"
+							src="/coursequest/edit-course.png"
 							alt="Project 03"
 							class="h-full w-full rounded-lg object-cover"
 						/>
 					</div>
 					<div class=" mt-2 flex justify-between">
-						<h1 class="font-medium text-slate-400">Admin Category CRUD</h1>
+						<h1 class="font-medium text-slate-400">Admin Edit Course</h1>
 						<h1 class="font-medium text-slate-400">2024</h1>
 					</div>
 				</Zoom>
