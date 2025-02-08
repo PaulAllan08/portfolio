@@ -18,7 +18,7 @@
 				class="flex gap-4 text-primary transition-all duration-300 ease-in-out hover:text-primary hover:underline"
 				style="text-decoration-thickness: 1.5px;"
 				href="https://www.figma.com/@SaulDesign08"
-				target="_blank">View My Other Designs in Figma <ExternalLink /></a
+				target="_blank">Other Designs <ExternalLink /></a
 			>
 		</div>
 		<div class="space-y-2">
