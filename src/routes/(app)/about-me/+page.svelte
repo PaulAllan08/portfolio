@@ -53,7 +53,7 @@
 		<div class=" pt-24">
 			<div class="text-xl font-bold text-primary md:text-3xl">Tech Stack</div>
 			<div>
-				<Separator class=" my-12 " />
+				<Separator class=" my-6 md:my-12 " />
 			</div>
 			<div class="grid grid-cols-1 gap-4 rounded-lg md:grid-cols-4">
 				<Badge
@@ -116,10 +116,46 @@
 					variant="outline"><Icon icon="simple-icons:drizzle" class="h-4 w-4" />Drizzle ORM</Badge
 				>
 				<Badge
-					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-lime-500 hover:text-lime-500"
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-blue-300 hover:text-blue-300"
 					variant="outline"
 					><Icon icon="akar-icons:postgresql-fill" class="h-4 w-4" />PostgresSql</Badge
 				>
+			</div>
+		</div>
+
+		<div class=" pt-24">
+			<div class="text-xl font-bold text-primary md:text-3xl">Design Tools</div>
+			<div>
+				<Separator class=" my-6 md:my-12 " />
+			</div>
+
+			<div class=" grid grid-cols-1 gap-4 rounded-lg md:grid-cols-4">
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-purple-500 hover:text-purple-500"
+					variant="outline"><Icon icon="solar:figma-outline" class="h-4 w-4 " />Figma</Badge
+				>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-blue-500 hover:text-blue-500"
+					variant="outline"><Icon icon="teenyicons:framer-outline" class="h-4 w-4" />Framer</Badge
+				>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-purple-500 hover:text-purple-500"
+					variant="outline"><Icon icon="hugeicons:adobe-xd" class="h-4 w-4" />Adobe XD</Badge
+				>
+				<Badge
+					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-orange-500 hover:text-orange-500"
+					variant="outline"><Icon icon="solar:figma-outline" class="h-4 w-4 " />Figjam</Badge
+				>
+			</div>
+		</div>
+
+		<div class=" pt-24">
+			<div class="text-xl font-bold text-primary md:text-3xl">Collaboration & Deployment Tools</div>
+			<div>
+				<Separator class=" my-6 md:my-12 " />
+			</div>
+
+			<div class=" grid grid-cols-1 gap-4 rounded-lg md:grid-cols-4">
 				<Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-red-600 hover:text-red-600"
 					variant="outline"><Icon icon="mdi:git" class="h-4 w-4" />Git</Badge
@@ -139,36 +175,6 @@
 				<Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-blue-500 hover:text-blue-500"
 					variant="outline"><Icon icon="mdi:docker" class="h-4 w-4" />Docker</Badge
-				>
-				<!-- <Badge
-					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-primary hover:text-primary"
-					variant="outline"><Icon icon="gg:vercel" class="h-4 w-4" />z.com</Badge
-				> -->
-			</div>
-		</div>
-
-		<div class=" pt-24">
-			<div class="text-xl font-bold text-primary md:text-3xl">Design Tools</div>
-			<div>
-				<Separator class=" my-12 " />
-			</div>
-
-			<div class=" grid grid-cols-1 gap-4 rounded-lg md:grid-cols-4">
-				<Badge
-					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-purple-500 hover:text-purple-500"
-					variant="outline"><Icon icon="solar:figma-outline" class="h-4 w-4 " />Figma</Badge
-				>
-				<Badge
-					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-blue-500 hover:text-blue-500"
-					variant="outline"><Icon icon="teenyicons:framer-outline" class="h-4 w-4" />Framer</Badge
-				>
-				<Badge
-					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-purple-500 hover:text-purple-500"
-					variant="outline"><Icon icon="hugeicons:adobe-xd" class="h-4 w-4" />Adobe XD</Badge
-				>
-				<Badge
-					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-orange-500 hover:text-orange-500"
-					variant="outline"><Icon icon="solar:figma-outline" class="h-4 w-4 " />Figjam</Badge
 				>
 			</div>
 		</div>
