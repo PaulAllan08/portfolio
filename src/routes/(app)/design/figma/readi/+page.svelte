@@ -1,11 +1,8 @@
 <script lang="ts">
 	import { ExternalLink, MoveRight } from 'lucide-svelte';
 	import { Separator } from '$lib/components/ui/separator';
-	import { Skeleton } from '$lib/components/ui/skeleton';
 	import Zoom from 'svelte-medium-image-zoom';
 	import 'svelte-medium-image-zoom/dist/styles.css';
-
-	let iframeLoaded = false;
 </script>
 
 <main class="space-24 container">
@@ -30,9 +27,6 @@
 			<Separator class="  my-12 " />
 		</div>
 
-		{#if !iframeLoaded}
-			<Skeleton class="mx-auto my-auto h-96 w-full rounded-lg md:h-screen" />
-		{/if}
 		<iframe
 			width="640"
 			height="480"
@@ -42,8 +36,6 @@
 			frameborder="0"
 			allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			allowfullscreen
-			on:load={() => (iframeLoaded = true)}
-			style="display: {iframeLoaded ? 'block' : 'none'};"
 		></iframe>
 
 		<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-3">
