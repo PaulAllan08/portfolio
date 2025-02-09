@@ -28,6 +28,7 @@
 			<ul class=" text-sm">
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/about-me"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -36,6 +37,7 @@
 				</li>
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/about-me"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -44,6 +46,7 @@
 				</li>
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/about-me"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -58,6 +61,7 @@
 			<ul class=" text-sm">
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/web-dev/coursequest"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -72,6 +76,7 @@
 			<ul class=" text-sm">
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/design/figma/readi"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -80,6 +85,7 @@
 				</li>
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/design/framer"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -94,6 +100,7 @@
 			<ul class=" text-sm">
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/socials"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -103,6 +110,7 @@
 
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/socials"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -111,6 +119,7 @@
 				</li>
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/socials"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
@@ -119,6 +128,7 @@
 				</li>
 				<li>
 					<a
+						onclick={toggleSidebar}
 						href="/socials"
 						class="flex items-center space-x-2 rounded p-1 font-medium transition-all duration-200 ease-in-out hover:bg-secondary"
 					>
