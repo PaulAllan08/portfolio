@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { ExternalLink, MoveRight } from 'lucide-svelte';
-	import { Separator } from '$lib/components/ui/separator/index.js';
+	import { Separator } from '$lib/components/ui/separator';
+	import { Skeleton } from '$lib/components/ui/skeleton';
 	import Zoom from 'svelte-medium-image-zoom';
 	import 'svelte-medium-image-zoom/dist/styles.css';
+
+	let iframeLoaded = false;
 </script>
 
 <main class="space-24 container">
@@ -18,14 +21,30 @@
 		<div class="space-y-2">
 			<div class="text-2xl font-bold text-primary md:text-3xl">READi Application</div>
 			<h1 class="font-medium text-slate-400">
-				A incindent report application with internal system that I design for PDRRMO (Provincial
-				Disaster Risk Reduction Management Office). READi app and internal system is designed in
-				figma. You can find the Figma link below.
+				A incident report application with an internal system that I designed during my internship
+				in the Provincial Information and Technology Office for PDRRMO (Provincial Disaster Risk
+				Reduction Management Office). The READi app and internal system were designed in Figma.
 			</h1>
 		</div>
 		<div>
 			<Separator class="  my-12 " />
 		</div>
+
+		{#if !iframeLoaded}
+			<Skeleton class="mx-auto my-auto h-96 w-full rounded-lg md:h-screen" />
+		{/if}
+		<iframe
+			width="640"
+			height="480"
+			title="READI Application"
+			class="mx-auto my-auto h-96 w-full rounded-lg md:h-screen"
+			src="https://drive.google.com/file/d/1lgWN9OVqWrhvmNAlhofiu9hysN3EAYHp/preview"
+			frameborder="0"
+			allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen
+			on:load={() => (iframeLoaded = true)}
+			style="display: {iframeLoaded ? 'block' : 'none'};"
+		></iframe>
 
 		<div class="grid grid-cols-1 gap-6 py-4 md:grid-cols-3">
 			<div class="row-span-2 overflow-hidden transition duration-300 ease-in-out hover:scale-105">

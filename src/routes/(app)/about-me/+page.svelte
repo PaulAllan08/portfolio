@@ -55,7 +55,7 @@
 			<div>
 				<Separator class=" my-12 " />
 			</div>
-			<div class="grid grid-cols-2 gap-4 rounded-lg p-4 md:grid-cols-4">
+			<div class="grid grid-cols-1 gap-4 rounded-lg md:grid-cols-4">
 				<Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-orange-500 hover:text-orange-500"
 					variant="outline"
@@ -153,7 +153,7 @@
 				<Separator class=" my-12 " />
 			</div>
 
-			<div class=" grid grid-cols-2 gap-4 rounded-lg p-4 md:grid-cols-4">
+			<div class=" grid grid-cols-1 gap-4 rounded-lg md:grid-cols-4">
 				<Badge
 					class="flex items-center gap-2 px-4 py-2 transition-all duration-300 ease-in-out hover:scale-105 hover:border-purple-500 hover:text-purple-500"
 					variant="outline"><Icon icon="solar:figma-outline" class="h-4 w-4 " />Figma</Badge
