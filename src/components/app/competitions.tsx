@@ -1,0 +1,112 @@
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
+export default function Competitions() {
+  return (
+    <div className="space-y-4 mt-12 mb-32" id="hackathon">
+      <div className="text-sm text-muted-foreground">
+        COMPETITIONS / HACKATHON
+      </div>
+      <ul className="mb-4 ml-4  border-l">
+        <li className="relative ml-10 space-y-2 mb-12">
+          <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+            <Avatar className="border size-12 m-auto">
+              <AvatarImage
+                src="/img/synergy-2024.png"
+                alt="logo"
+                className="object-cover"
+              />
+              <AvatarFallback>logo</AvatarFallback>
+            </Avatar>
+          </div>
+          <div className="text-sm text-muted-foreground">June 2024</div>
+          <div> SYNERGY UP EEE Summit Software Solutions | Seven Seven</div>
+
+          <div className="text-sm text-muted-foreground">
+            software-development hackathon designed to utilize engineering minds
+            in creating solutions to modern problems that bring forth societal
+            impacts. Participants from different universities are challenged to
+            provide solutions to a general problem, pitching it to actual
+            industry representatives.
+          </div>
+        </li>
+
+        <li className="relative ml-10 space-y-2 mb-12">
+          <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+            <Avatar className="border size-12 m-auto">
+              <AvatarImage
+                src="/img/appcon-2023.png"
+                alt="logo"
+                className="object-cover"
+              />
+              <AvatarFallback>logo</AvatarFallback>
+            </Avatar>
+          </div>
+          <div className="text-sm text-muted-foreground">June 2023</div>
+          <div> AppCon 2023 | OTis Philippines Inc.</div>
+
+          <div className="text-sm text-muted-foreground">
+            AppCon is an annual web and mobile app competition in the
+            Philippines, started in 2018 by the President of OTis Inc. (Japan)
+            with support from ITCareer.ph, ITHured Philippines Inc., and PSITE.
+            The competition aims to address social issues in the Philippines and
+            provide participants with opportunities for recognition and societal
+            contribution.
+          </div>
+        </li>
+
+        <li className="relative ml-10 space-y-2 mb-12">
+          <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+            <Avatar className="border size-12 m-auto">
+              <AvatarImage
+                src="/img/hack4gov.png"
+                alt="logo"
+                className="object-cover"
+              />
+              <AvatarFallback>logo</AvatarFallback>
+            </Avatar>
+          </div>
+          <div className="text-sm text-muted-foreground">June 2023</div>
+          <div> Hack4Gov 2 CERT-PH Cyber Challenge | DICT</div>
+
+          <div className="text-sm text-muted-foreground">
+            AppCon is an annual web and mobile app competition in the
+            Philippines, started in 2018 by the President of OTis Inc. (Japan)
+            with support from ITCareer.ph, ITHured Philippines Inc., and PSITE.
+            The competition aims to address social issues in the Philippines and
+            provide participants with opportunities for recognition and societal
+            contribution.
+          </div>
+        </li>
+
+        <li className="relative ml-10 space-y-2 mb-12">
+          <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+            <Avatar className="border size-12 m-auto">
+              <AvatarImage
+                src="/img/synergy-2023.png"
+                alt="logo"
+                className="object-cover"
+              />
+              <AvatarFallback>logo</AvatarFallback>
+            </Avatar>
+          </div>
+          <div className="text-sm text-muted-foreground">June 2024</div>
+          <div>
+            {" "}
+            SYNERGY UP EEE Summit Software Solutions | Converge ICT Solutions
+            Inc.
+          </div>
+
+          <div className="text-sm text-muted-foreground">
+            software-development hackathon designed to utilize engineering minds
+            in creating solutions to modern problems that bring forth societal
+            impacts. Participants from different universities are challenged to
+            provide solutions to a general problem, pitching it to actual
+            industry representatives.
+          </div>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+export { Competitions };
