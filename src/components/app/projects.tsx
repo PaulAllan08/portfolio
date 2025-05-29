@@ -8,6 +8,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
   type CarouselApi,
 } from "@/components/ui/carousel";
 import {
@@ -127,7 +129,7 @@ export default function Projects() {
               height={1000}
             />
 
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <Dialog>
                 <DialogTrigger asChild>
                   <Button>View Project</Button>
@@ -164,10 +166,12 @@ export default function Projects() {
                             </CarouselItem>
                           ))}
                         </CarouselContent>
+                        <div className="pt-4 text-center text-sm text-muted-foreground">
+                          <CarouselPrevious className="left-4" />
+                          Slide {current} of {count}{" "}
+                          <CarouselNext className="right-4" />
+                        </div>
                       </Carousel>
-                      <div className="pt-4 text-center text-sm text-muted-foreground">
-                        Slide {current} of {count}
-                      </div>
                     </div>
                   </DialogHeader>
                 </DialogContent>
@@ -217,7 +221,7 @@ export default function Projects() {
               height={1000}
             />
 
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <Dialog>
                 <DialogTrigger asChild>
                   <Button>View Project</Button>
@@ -253,10 +257,12 @@ export default function Projects() {
                             </CarouselItem>
                           ))}
                         </CarouselContent>
+                        <div className="pt-4 text-center text-sm text-muted-foreground">
+                          <CarouselPrevious className="left-4" />
+                          Slide {current} of {count}{" "}
+                          <CarouselNext className="right-4" />
+                        </div>
                       </Carousel>
-                      <div className="pt-4 text-center text-sm text-muted-foreground">
-                        Slide {current} of {count}
-                      </div>
                     </div>
                   </DialogHeader>
                 </DialogContent>
@@ -307,7 +313,7 @@ export default function Projects() {
             height={1000}
           />
 
-          <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
             <Dialog>
               <DialogTrigger asChild>
                 <Button>View Project</Button>
@@ -332,10 +338,12 @@ export default function Projects() {
                           </CarouselItem>
                         ))}
                       </CarouselContent>
+                      <div className="pt-4 text-center text-sm text-muted-foreground">
+                        <CarouselPrevious className="left-4" />
+                        Slide {current} of {count}{" "}
+                        <CarouselNext className="right-4" />
+                      </div>
                     </Carousel>
-                    <div className="pt-4 text-center text-sm text-muted-foreground">
-                      Slide {current} of {count}
-                    </div>
                   </div>
                 </DialogHeader>
               </DialogContent>

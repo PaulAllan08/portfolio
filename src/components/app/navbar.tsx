@@ -18,7 +18,7 @@ const DATA = {
   navbar: [
     { href: "#home", icon: "iconamoon:home", label: "Home" },
     { href: "#projects", icon: "pepicons-pop:code", label: "Projects" },
-    { href: "#hackathon", icon: "humbleicons:certificate", label: "Hackathon" },
+    // { href: "#hackathon", icon: "humbleicons:certificate", label: "Hackathon" },
     // { href: "#", icon: PencilIcon, label: "Blog" },
   ],
   contact: {
@@ -37,7 +37,7 @@ const DATA = {
       email: {
         name: "Send Email",
         url: "material-symbols:mail",
-        icon: "flowbite:html-solid",
+        icon: "mdi:gmail",
       },
     },
   },
@@ -100,7 +100,12 @@ export default function Navbar() {
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button variant="outline" size="icon" onClick={toggleTheme}>
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={toggleTheme}
+                className="rounded-xl"
+              >
                 <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
                 <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
                 <span className="sr-only">Toggle theme</span>

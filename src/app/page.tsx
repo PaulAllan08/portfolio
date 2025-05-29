@@ -14,12 +14,12 @@ export default function Home() {
       <div className="relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background">
         <DotPattern
           className={cn(
-            "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+            "[mask-image:radial-gradient(250px_circle_at_center,white,transparent)]"
           )}
         />
 
         {/* HERO */}
-        <div className=" flex flex-col lg:flex-row  items-center justify-between w-full">
+        <div className="z-50 flex flex-col lg:flex-row  items-center justify-between w-full">
           <div className="flex flex-col lg:flex-row  items-center lg:text-start text-center gap-4 ">
             <Image
               src="/img/profile.jpg"
