@@ -17,7 +17,7 @@ import { useTheme } from "next-themes";
 const DATA = {
   navbar: [
     { href: "#home", icon: "iconamoon:home", label: "Home" },
-    { href: "#projects", icon: "pepicons-pop:code", label: "Projects" },
+    // { href: "#projects", icon: "pepicons-pop:code", label: "Projects" },
     // { href: "#hackathon", icon: "humbleicons:certificate", label: "Hackathon" },
     // { href: "#", icon: PencilIcon, label: "Blog" },
   ],
@@ -34,10 +34,16 @@ const DATA = {
         icon: "ri:linkedin-fill",
       },
 
-      email: {
+      Email: {
         name: "Send Email",
-        url: "material-symbols:mail",
+        url: "mailto:palaciopaulbermudez@gmail.com",
         icon: "mdi:gmail",
+      },
+
+      Dribble: {
+        name: "Dribbled",
+        url: "https://dribbble.com/Saul_08",
+        icon: "icon-park-outline:dribble",
       },
     },
   },

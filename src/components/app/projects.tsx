@@ -19,7 +19,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { ExternalLinkIcon } from "lucide-react";
+import { ExternalLinkIcon, Dribbble } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -399,7 +399,17 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="text-xl">READI</div>
+            <div className="text-xl">
+              READI
+              <Button
+                asChild
+                className="ml-2 rounded-full animate-bounce duration-300 ease-in-out"
+              >
+                <Link href="https://dribbble.com/Saul_08" target="_blank">
+                  <Dribbble />
+                </Link>
+              </Button>
+            </div>
             <div className="text-sm text-muted-foreground">
               An incident report application with an internal system for
               monitoring and responding to reports by deploying rescuers to
@@ -436,7 +446,17 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="text-xl">PARA PO</div>
+            <div className="text-xl">
+              PARA PO{" "}
+              <Button
+                asChild
+                className="ml-2 rounded-full animate-bounce duration-300 ease-in-out"
+              >
+                <Link href="https://dribbble.com/Saul_08" target="_blank">
+                  <Dribbble />
+                </Link>
+              </Button>
+            </div>
             <div className="text-sm text-muted-foreground">
               PARA PO is an application for PWDs that enables them to travel
               safely to their destination. I designed PARA PO for a start up
