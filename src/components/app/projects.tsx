@@ -282,11 +282,12 @@ export default function Projects() {
             </Button>
           </div>
           <div className="text-sm text-muted-foreground">
-            Monitly is a website monitoring tool designed to track the uptime,
-            response status, and performance of websites in real time. Monitly
-            helps developers and website owners stay informed about their sites
-            health and quickly respond to issues. Its a lightweight, efficient
-            solution tailored for continuous monitoring and peace of mind.
+            Monitly a micro SaaS that I built in Svelte/Sveltekit it is a
+            website monitoring tool designed to track the uptime, response
+            status, and performance of websites in real time. Monitly helps
+            developers and website owners stay informed about their sites health
+            and quickly respond to issues. Its a lightweight, efficient solution
+            tailored for continuous monitoring and peace of mind.
           </div>
 
           <div className="gap-2 flex flex-wrap">
