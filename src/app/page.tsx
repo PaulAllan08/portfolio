@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <Button asChild className="bg-primary">
               <Link
-                href="https://drive.google.com/file/d/12ytBf5VeCdiuHwxb2xUi63SlVCDbJm5n/view?usp=sharing"
+                href="https://drive.google.com/file/d/1I3SZ6uASXAjFAPiOZteilyIs3QP9-qrD/view?usp=sharing"
                 target="_blank"
               >
                 <FileSymlinkIcon />
