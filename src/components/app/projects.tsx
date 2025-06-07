@@ -125,8 +125,8 @@ export default function Projects() {
               src="/img/coursequest/learn.png"
               alt="coursequest"
               className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-              width={1000}
-              height={1000}
+              width={5000}
+              height={5000}
             />
 
             <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -217,8 +217,8 @@ export default function Projects() {
               src="/img/monitly/home.png"
               alt="monitly"
               className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-              width={1000}
-              height={1000}
+              width={5000}
+              height={5000}
             />
 
             <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -250,7 +250,7 @@ export default function Projects() {
                               <Image
                                 src={img}
                                 alt={`Monitly image ${index + 1}`}
-                                width={1000}
+                                width={5000}
                                 height={600}
                                 className="w-full h-full object-cover rounded-xl border"
                               />
@@ -310,8 +310,8 @@ export default function Projects() {
             src="/img/event/login.png"
             alt="coursequest"
             className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-            width={1000}
-            height={1000}
+            width={5000}
+            height={5000}
           />
 
           <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -332,7 +332,7 @@ export default function Projects() {
                             <Image
                               src={img}
                               alt={`Eventimage ${index + 1}`}
-                              width={1000}
+                              width={5000}
                               height={600}
                               className="w-full h-full object-cover rounded-xl border"
                             />
@@ -357,11 +357,12 @@ export default function Projects() {
         </div>
         <div className="text-sm text-muted-foreground">
           The system is an Event Management and Attendance Tracking platform
-          that streamlines event organization and attendance recording using QR
-          codes, developed in my internship at PITO (Provincial Information and
-          Technology Office). Administrators can create custom events, manage
-          employees, offices, and users, while each employee uses a unique QR
-          code to check in at events.
+          that I developed during my internship it streamlines event
+          organization and attendance recording using QR codes, developed in my
+          internship at PITO (Provincial Information and Technology Office).
+          Administrators can create custom events, manage employees, offices,
+          and users, while each employee uses a unique QR code to check in at
+          events.
         </div>
 
         <div className="gap-2 flex flex-wrap">
@@ -391,8 +392,8 @@ export default function Projects() {
                 src="/img/readi/mobile-screens.png"
                 alt="coursequest"
                 className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-                width={1000}
-                height={1000}
+                width={5000}
+                height={5000}
               />
 
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -438,8 +439,8 @@ export default function Projects() {
                 src="/img/para-po/pwd-mobile.png"
                 alt="coursequest"
                 className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-                width={1000}
-                height={1000}
+                width={5000}
+                height={5000}
               />
 
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -461,8 +462,7 @@ export default function Projects() {
             <div className="text-sm text-muted-foreground">
               PARA PO is an application for PWDs that enables them to travel
               safely to their destination. I designed PARA PO for a start up
-              competition called Founders Live. PARA PO app is designed in
-              figma.
+              competition called Founders Live.
             </div>
 
             <div className="gap-2 flex flex-wrap">

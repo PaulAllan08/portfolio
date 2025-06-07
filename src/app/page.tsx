@@ -77,8 +77,8 @@ export default function Home() {
               src="/img/pito.webp"
               alt="pito"
               className="h-16 w-16 rounded-full"
-              width={1000}
-              height={1000}
+              width={5000}
+              height={5000}
             />
             <div>
               <div className="text-xl">
@@ -104,8 +104,8 @@ export default function Home() {
               src="/img/apcas.png"
               alt="apcas"
               className="h-16 w-16 rounded-full"
-              width={1000}
-              height={1000}
+              width={5000}
+              height={5000}
             />
             <div>
               <div className="text-xl">
