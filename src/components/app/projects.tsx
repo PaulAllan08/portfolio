@@ -94,7 +94,9 @@ export const monitlyImg = [
 
 export const eventImg = [
   "/img/event/login.png",
+  "/img/event/create-event.png",
   "/img/event/qr-code.png",
+  "/img/event/filter.png",
   "/img/event/scan.png",
   "/img/event/attendance.png",
 ];
@@ -134,7 +136,7 @@ export default function Projects() {
                 <DialogTrigger asChild>
                   <Button>View Project</Button>
                 </DialogTrigger>
-                <DialogContent className="sm:max-w-5xl">
+                <DialogContent className="sm:max-w-6xl">
                   <DialogHeader>
                     <DialogTitle>
                       CourseQuest
@@ -159,9 +161,9 @@ export default function Projects() {
                               <Image
                                 src={img}
                                 alt={`CourseQuest image ${index + 1}`}
-                                width={1000}
+                                width={5000}
                                 height={600}
-                                className="w-full h-full object-cover rounded-xl border"
+                                className="w-full h-[600px] object-cover rounded-xl border p-4"
                               />
                             </CarouselItem>
                           ))}
@@ -226,7 +228,7 @@ export default function Projects() {
                 <DialogTrigger asChild>
                   <Button>View Project</Button>
                 </DialogTrigger>
-                <DialogContent className="sm:max-w-5xl">
+                <DialogContent className="sm:max-w-6xl">
                   <DialogHeader>
                     <DialogTitle>
                       Monitly{" "}
@@ -252,7 +254,7 @@ export default function Projects() {
                                 alt={`Monitly image ${index + 1}`}
                                 width={5000}
                                 height={600}
-                                className="w-full h-full object-cover rounded-xl border"
+                                className="w-full h-[600px] object-cover rounded-xl border p-4"
                               />
                             </CarouselItem>
                           ))}
@@ -319,7 +321,7 @@ export default function Projects() {
               <DialogTrigger asChild>
                 <Button>View Project</Button>
               </DialogTrigger>
-              <DialogContent className="sm:max-w-5xl">
+              <DialogContent className="sm:max-w-6xl">
                 <DialogHeader>
                   <DialogTitle>
                     Event Management System with QR Attendance Tracking
@@ -334,7 +336,7 @@ export default function Projects() {
                               alt={`Eventimage ${index + 1}`}
                               width={5000}
                               height={600}
-                              className="w-full h-full object-cover rounded-xl border"
+                              className="w-full h-[600px] object-cover rounded-xl border p-4 "
                             />
                           </CarouselItem>
                         ))}
