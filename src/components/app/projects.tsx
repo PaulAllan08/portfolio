@@ -65,6 +65,43 @@ export const personalStack = [
   },
 ];
 
+export const nextStack = [
+  {
+    name: "React",
+    icon: "mdi:react",
+  },
+  {
+    name: "Next js",
+    icon: "ri:nextjs-fill",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "mdi:tailwind",
+  },
+
+  {
+    name: "TypeScript",
+    icon: "tabler:brand-typescript",
+  },
+  {
+    name: "Shadcn",
+    icon: "simple-icons:shadcnui",
+  },
+  {
+    name: "Supabase",
+    icon: "ri:supabase-line",
+  },
+  {
+    name: "Drizzle ORM",
+    icon: "simple-icons:drizzle",
+  },
+
+  {
+    name: "Vercel",
+    icon: "gg:vercel",
+  },
+];
+
 export const design = [
   {
     name: "Figma",
@@ -305,78 +342,117 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      {/* Event */}
-      <div className="space-y-4 border rounded-xl p-6">
-        <div className="relative group rounded-xl overflow-hidden">
-          <Image
-            src="/img/event/login.png"
-            alt="coursequest"
-            className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-            width={5000}
-            height={5000}
-          />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        {/* Event */}
+        <div className="space-y-4 border rounded-xl p-6">
+          <div className="relative group rounded-xl overflow-hidden">
+            <Image
+              src="/img/event/login.png"
+              alt="coursequest"
+              className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+              width={5000}
+              height={5000}
+            />
 
-          <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-            <Dialog>
-              <DialogTrigger asChild>
-                <Button>View Project</Button>
-              </DialogTrigger>
-              <DialogContent className="sm:max-w-6xl">
-                <DialogHeader>
-                  <DialogTitle>
-                    Event Management System with QR Attendance Tracking
-                  </DialogTitle>
-                  <div className="mt-4">
-                    <Carousel setApi={setApi} className="w-full ">
-                      <CarouselContent>
-                        {eventImg.map((img, index) => (
-                          <CarouselItem key={index}>
-                            <Image
-                              src={img}
-                              alt={`Eventimage ${index + 1}`}
-                              width={5000}
-                              height={600}
-                              className="w-full h-[600px] object-cover rounded-xl border p-4 "
-                            />
-                          </CarouselItem>
-                        ))}
-                      </CarouselContent>
-                      <div className="pt-4 text-center text-sm text-muted-foreground">
-                        <CarouselPrevious className="left-4" />
-                        Slide {current} of {count}{" "}
-                        <CarouselNext className="right-4" />
-                      </div>
-                    </Carousel>
-                  </div>
-                </DialogHeader>
-              </DialogContent>
-            </Dialog>
+            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <Dialog>
+                <DialogTrigger asChild>
+                  <Button>View Project</Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-6xl">
+                  <DialogHeader>
+                    <DialogTitle>
+                      Event Management System with QR Attendance Tracking
+                    </DialogTitle>
+                    <div className="mt-4">
+                      <Carousel setApi={setApi} className="w-full ">
+                        <CarouselContent>
+                          {eventImg.map((img, index) => (
+                            <CarouselItem key={index}>
+                              <Image
+                                src={img}
+                                alt={`Eventimage ${index + 1}`}
+                                width={5000}
+                                height={600}
+                                className="w-full h-[600px] object-cover rounded-xl border p-4 "
+                              />
+                            </CarouselItem>
+                          ))}
+                        </CarouselContent>
+                        <div className="pt-4 text-center text-sm text-muted-foreground">
+                          <CarouselPrevious className="left-4" />
+                          Slide {current} of {count}{" "}
+                          <CarouselNext className="right-4" />
+                        </div>
+                      </Carousel>
+                    </div>
+                  </DialogHeader>
+                </DialogContent>
+              </Dialog>
+            </div>
+          </div>
+
+          <div className="text-xl">
+            Event Management System with QR Attendance Tracking
+          </div>
+          <div className="text-sm text-muted-foreground">
+            The system is an Event Management and Attendance Tracking platform
+            that I developed during my internship it streamlines event
+            organization and attendance recording using QR codes, developed in
+            my internship at PITO (Provincial Information and Technology
+            Office). Administrators can create custom events, manage employees,
+            offices, and users, while each employee uses a unique QR code to
+            check in at events.
+          </div>
+
+          <div className="gap-2 flex flex-wrap">
+            {personalStack.map((stack) => (
+              <Badge
+                key={stack.name}
+                className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+              >
+                <Icon icon={stack.icon} className="w-4 h-4" />
+                {stack.name}
+              </Badge>
+            ))}
           </div>
         </div>
 
-        <div className="text-xl">
-          Event Management System with QR Attendance Tracking
-        </div>
-        <div className="text-sm text-muted-foreground">
-          The system is an Event Management and Attendance Tracking platform
-          that I developed during my internship it streamlines event
-          organization and attendance recording using QR codes, developed in my
-          internship at PITO (Provincial Information and Technology Office).
-          Administrators can create custom events, manage employees, offices,
-          and users, while each employee uses a unique QR code to check in at
-          events.
-        </div>
+        <div className="space-y-4 border rounded-xl p-6">
+          <div className="relative group rounded-xl overflow-hidden">
+            <Image
+              src="/img/genifile/comingsoon.png"
+              alt="coursequest"
+              className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+              width={5000}
+              height={5000}
+            />
 
-        <div className="gap-2 flex flex-wrap">
-          {personalStack.map((stack) => (
-            <Badge
-              key={stack.name}
-              className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
-            >
-              <Icon icon={stack.icon} className="w-4 h-4" />
-              {stack.name}
-            </Badge>
-          ))}
+            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <Button>Coming Soon</Button>
+            </div>
+          </div>
+
+          <div className="text-xl">Genifile</div>
+          <div className="text-sm text-muted-foreground">
+            A micro SaaS web app that allows users to quickly create and
+            download professional invoices and receipts. Built with a modern
+            design approach and optimized for mobile-first use, its ideal for
+            freelancers and small businesses looking for an easy invoicing
+            solution.
+          </div>
+
+          <div className="gap-2 flex flex-wrap">
+            {nextStack.map((stack) => (
+              <Badge
+                key={stack.name}
+                className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+              >
+                <Icon icon={stack.icon} className="w-4 h-4" />
+                {stack.name}
+              </Badge>
+            ))}
+          </div>
         </div>
       </div>
 
