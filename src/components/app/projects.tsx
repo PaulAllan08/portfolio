@@ -110,23 +110,27 @@ export const design = [
 ];
 
 export const coursequestImg = [
-  "/img/coursequest/landingpage.png",
+  "/img/coursequest/landingpage-new.png",
   "/img/coursequest/landingpage-dark.png",
   "/img/coursequest/courses.png",
-  "/img/coursequest/course-preview.png",
+  "/img/coursequest/courses-dark.png",
+  "/img/coursequest/preview.png",
   "/img/coursequest/seminars.png",
   "/img/coursequest/user-dashboard.png",
   "/img/coursequest/enrolled.png",
+  "/img/coursequest/learn-new.png",
+  "/img/coursequest/quiz-new.png",
   "/img/coursequest/create-course.png",
   "/img/coursequest/edit-course.png",
 ];
 
 export const monitlyImg = [
-  "/img/monitly/home.png",
+  "/img/monitly/landingpage.png",
   "/img/monitly/dashboard.png",
   "/img/monitly/login.png",
   "/img/monitly/register.png",
   "/img/monitly/add-url.png",
+  "/img/monitly/email.png",
 ];
 
 export const eventImg = [
@@ -161,7 +165,7 @@ export default function Projects() {
         <div className="space-y-4 border rounded-xl p-6">
           <div className="relative group rounded-xl overflow-hidden">
             <Image
-              src="/img/coursequest/learn.png"
+              src="/img/coursequest/learn-new.png"
               alt="coursequest"
               className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
               width={5000}
@@ -253,7 +257,7 @@ export default function Projects() {
         <div className="space-y-4 border rounded-xl p-6">
           <div className="relative group rounded-xl overflow-hidden">
             <Image
-              src="/img/monitly/home.png"
+              src="/img/monitly/landingpage.png"
               alt="monitly"
               className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
               width={5000}
@@ -322,11 +326,9 @@ export default function Projects() {
           </div>
           <div className="text-sm text-muted-foreground">
             Monitly a micro SaaS that I built in Svelte/Sveltekit it is a
-            website monitoring tool designed to track the uptime, response
-            status, and performance of websites in real time. Monitly helps
-            developers and website owners stay informed about their sites health
-            and quickly respond to issues. Its a lightweight, efficient solution
-            tailored for continuous monitoring and peace of mind.
+            website monitoring tool designed to help website owners and
+            developers stay informed about their sites health and quickly
+            respond to issues by alerting them once the website is down.
           </div>
 
           <div className="gap-2 flex flex-wrap">
@@ -421,7 +423,7 @@ export default function Projects() {
         <div className="space-y-4 border rounded-xl p-6">
           <div className="relative group rounded-xl overflow-hidden">
             <Image
-              src="/img/genifile/comingsoon.png"
+              src="/img/genifile/home.png"
               alt="coursequest"
               className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
               width={5000}
@@ -429,17 +431,16 @@ export default function Projects() {
             />
 
             <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-              <Button>Coming Soon</Button>
+              <Button>In Progress</Button>
             </div>
           </div>
 
           <div className="text-xl">Genifile</div>
           <div className="text-sm text-muted-foreground">
-            A micro SaaS web app that allows users to quickly create and
-            download professional invoices and receipts. Built with a modern
-            design approach and optimized for mobile-first use, its ideal for
-            freelancers and small businesses looking for an easy invoicing
-            solution.
+            Monitly is a micro SaaS website monitoring tool built for website
+            owners, developers, and business operators. It keeps track of your
+            site’s health and instantly alerts you when downtime is detected so
+            you can take action before users notice.
           </div>
 
           <div className="gap-2 flex flex-wrap">

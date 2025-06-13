@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <Button asChild className="bg-primary">
               <Link
-                href="https://drive.google.com/file/d/1I3SZ6uASXAjFAPiOZteilyIs3QP9-qrD/view?usp=sharing"
+                href="https://drive.google.com/file/d/127ZksB_D3khAq4JsqBhLZNP2080LuibW/view?usp=sharing"
                 target="_blank"
               >
                 <FileSymlinkIcon />
@@ -67,7 +67,6 @@ export default function Home() {
           solutions.
         </div>
       </div>
-
       {/* EXPERIENCE */}
       <div className="space-y-4 mt-12">
         <div className="text-sm text-muted-foreground">EXPERIENCE</div>
@@ -85,7 +84,7 @@ export default function Home() {
                 Privincial Information Technology Office
               </div>
               <div className="text-sm text-muted-foreground">
-                Junior Web Developer Intern
+                Web Developer Intern (On-site)
               </div>
             </div>
           </div>
@@ -94,7 +93,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* EDUCATION */}
       <div className="space-y-4 mt-12">
         <div className="text-sm text-muted-foreground">EDUCATION</div>
@@ -119,12 +117,15 @@ export default function Home() {
           <div className="text-sm text-muted-foreground">Jun 2025</div>
         </div>
       </div>
-
-      <Skills />
-
-      <Projects />
-
-      <Competitions />
+      <div className="mt-32">
+        <Skills />
+      </div>
+      <div>
+        <Projects />
+      </div>{" "}
+      <div className="mt-32">
+        <Competitions />
+      </div>
     </div>
   );
 }
