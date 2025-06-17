@@ -126,7 +126,7 @@ export const coursequestImg = [
 
 export const monitlyImg = [
   "/img/monitly/landingpage.png",
-  "/img/monitly/dashboard-cropped.png",
+  "/img/monitly/new-dashboard.png",
   "/img/monitly/login.png",
   "/img/monitly/register.png",
   "/img/monitly/add-url-new.png",
