@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <Button asChild className="bg-primary">
               <Link
-                href="https://drive.google.com/file/d/127ZksB_D3khAq4JsqBhLZNP2080LuibW/view?usp=sharing"
+                href="https://drive.google.com/file/d/1jP6_9JNayR_1fdPc1xS5qJeUGYTB6K79/view?usp=sharing"
                 target="_blank"
               >
                 <FileSymlinkIcon />
@@ -122,7 +122,7 @@ export default function Home() {
       </div>
       <div>
         <Projects />
-      </div>{" "}
+      </div>
       <div className="mt-32">
         <Competitions />
       </div>
