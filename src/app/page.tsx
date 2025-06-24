@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="px-4 lg:px-24 xl:px-64 md:px-24 2xl:px-[400px] ">
+    <div className="px-4   mx-auto w-full max-w-4xl ">
       <div className="relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background">
         <DotPattern
           className={cn(
