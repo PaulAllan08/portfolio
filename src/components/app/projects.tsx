@@ -142,6 +142,11 @@ export const eventImg = [
   "/img/event/attendance.png",
 ];
 
+export const genifileImg = [
+  "/img/genifile/cropped-home.png",
+  "/img/genifile/cropped-generate.png",
+];
+
 export default function Projects() {
   const [api, setApi] = React.useState<CarouselApi>();
   const [current, setCurrent] = React.useState(0);
@@ -172,7 +177,7 @@ export default function Projects() {
               height={5000}
             />
 
-            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black/60   opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <Dialog>
                 <DialogTrigger asChild>
                   <Button>View Project</Button>
@@ -264,7 +269,7 @@ export default function Projects() {
               height={5000}
             />
 
-            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black/60   opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <Dialog>
                 <DialogTrigger asChild>
                   <Button>View Project</Button>
@@ -356,7 +361,7 @@ export default function Projects() {
               height={5000}
             />
 
-            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black/60   opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <Dialog>
                 <DialogTrigger asChild>
                   <Button>View Project</Button>
@@ -423,24 +428,59 @@ export default function Projects() {
         <div className="space-y-4 border rounded-xl p-6">
           <div className="relative group rounded-xl overflow-hidden">
             <Image
-              src="/img/genifile/home.png"
+              src="/img/genifile/new-home.png"
               alt="coursequest"
               className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
               width={5000}
               height={5000}
             />
 
-            <div className="absolute inset-0 bg-black/60 opacity-100 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-              <Button>In Progress</Button>
+            <div className="absolute inset-0 bg-black/60   opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <Dialog>
+                <DialogTrigger asChild>
+                  <Button>View Project</Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-6xl">
+                  <DialogHeader>
+                    <DialogTitle className="flex">
+                      Genefile - Invoice Generator{" "}
+                      <div className="bg-primary p-2 px-3 ml-4 text-sm rounded-3xl animate-bounce duration-300 ease-in-out">
+                        Still in Development
+                      </div>
+                    </DialogTitle>
+                    <div className="mt-4">
+                      <Carousel setApi={setApi} className="w-full ">
+                        <CarouselContent>
+                          {genifileImg.map((img, index) => (
+                            <CarouselItem key={index}>
+                              <Image
+                                src={img}
+                                alt={`Genifileimage ${index + 1}`}
+                                width={5000}
+                                height={600}
+                                className="w-full h-[600px] object-cover rounded-xl border p-4 "
+                              />
+                            </CarouselItem>
+                          ))}
+                        </CarouselContent>
+                        <div className="pt-4 text-center text-sm text-muted-foreground">
+                          <CarouselPrevious className="left-4" />
+                          Slide {current} of {count}{" "}
+                          <CarouselNext className="right-4" />
+                        </div>
+                      </Carousel>
+                    </div>
+                  </DialogHeader>
+                </DialogContent>
+              </Dialog>
             </div>
           </div>
 
           <div className="text-xl">Genifile</div>
           <div className="text-sm text-muted-foreground">
-            Monitly is a micro SaaS website monitoring tool built for website
-            owners, developers, and business operators. It keeps track of your
-            site’s health and instantly alerts you when downtime is detected so
-            you can take action before users notice.
+            An Invoice Generater to create professional invoices in seconds
+            free, fast, and hassle-free. Perfect for freelancers, small
+            businesses, and entrepreneurs. (Still in Development)
           </div>
 
           <div className="gap-2 flex flex-wrap">
