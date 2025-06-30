@@ -125,11 +125,11 @@ export const coursequestImg = [
 ];
 
 export const monitlyImg = [
-  "/img/monitly/landingpage.png",
-  "/img/monitly/dashboard.png",
+  "/img/monitly/new-home.png",
+  "/img/monitly/uptime.png",
   "/img/monitly/login.png",
   "/img/monitly/register.png",
-  "/img/monitly/add-url-new.png",
+  "/img/monitly/monitor.png",
   "/img/monitly/email-new.png",
 ];
 
@@ -262,7 +262,7 @@ export default function Projects() {
         <div className="space-y-4 border rounded-xl p-6">
           <div className="relative group rounded-xl overflow-hidden">
             <Image
-              src="/img/monitly/landingpage.png"
+              src="/img/monitly/new-home.png"
               alt="monitly"
               className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
               width={5000}
@@ -330,7 +330,7 @@ export default function Projects() {
             </Button>
           </div>
           <div className="text-sm text-muted-foreground">
-            Monitly a micro SaaS that I built in Svelte/Sveltekit it is a
+            Monitly a micro SaaS that I built in Svelte/Sveltekit it is a uptime
             website monitoring tool designed to help website owners and
             developers stay informed about their sites health and quickly
             respond to issues by alerting them once the website is down.
