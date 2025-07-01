@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Competitions() {
   return (
-    <div className="space-y-4 mt-12 mb-32" id="hackathon">
+    <div className="space-y-4 mt-12 ">
       <div className="text-sm text-muted-foreground">
         COMPETITIONS / HACKATHON
       </div>
