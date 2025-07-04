@@ -85,7 +85,7 @@ export default function Projects() {
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
-                src="/img/coursequest/learn-new.png"
+                src="/img/coursequest/landingpage-new.png"
                 alt="coursequest"
                 className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                 width={5000}
@@ -195,37 +195,6 @@ export default function Projects() {
             ))}
           </div>
         </div>
-
-        {/* <div className="space-y-4 border rounded-xl p-6">
-          <div className="relative group rounded-xl overflow-hidden">
-            <Image
-              src="/img/genifile/new-home.png"
-              alt="coursequest"
-              className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-              width={5000}
-              height={5000}
-            />
-          </div>
-
-          <div className="text-xl">Genifile</div>
-          <div className="text-sm text-muted-foreground">
-            An Invoice Generater to create professional invoices in seconds
-            free, fast, and hassle-free. Perfect for freelancers, small
-            businesses, and entrepreneurs. (Still in Development)
-          </div>
-
-          <div className="gap-2 flex flex-wrap">
-            {nextStack.map((stack) => (
-              <Badge
-                key={stack.name}
-                className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
-              >
-                <Icon icon={stack.icon} className="w-4 h-4" />
-                {stack.name}
-              </Badge>
-            ))}
-          </div>
-        </div> */}
       </div>
 
       <div className="space-y-4 mt-12">
@@ -237,7 +206,7 @@ export default function Projects() {
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
-                src="/img/readi/mobile-screens.png"
+                src="/img/readi/dashboard.png"
                 alt="coursequest"
                 className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                 width={5000}
