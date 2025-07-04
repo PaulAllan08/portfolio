@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="px-4   mx-auto w-full max-w-4xl ">
+    <div className="  mx-auto w-full  ">
       <BlurFade delay={0.25} inView>
         <div className="relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background">
           <DotPattern

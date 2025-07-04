@@ -15,12 +15,7 @@ import { Icon } from "@iconify/react";
 import { useTheme } from "next-themes";
 
 const DATA = {
-  navbar: [
-    { href: "#home", icon: "iconamoon:home", label: "Home" },
-    // { href: "#projects", icon: "pepicons-pop:code", label: "Projects" },
-    // { href: "#hackathon", icon: "humbleicons:certificate", label: "Hackathon" },
-    // { href: "#", icon: PencilIcon, label: "Blog" },
-  ],
+  navbar: [{ href: "/", icon: "iconamoon:home", label: "Home" }],
   contact: {
     social: {
       GitHub: {

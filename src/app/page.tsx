@@ -13,12 +13,12 @@ export default function Home() {
     <div className="px-4   mx-auto w-full max-w-4xl pb-32">
       <Hero />
       <BlurFade delay={1} inView>
-        <div className="mt-32">
+        <div>
           <Skills />
         </div>
       </BlurFade>
       <BlurFade delay={1.25} inView>
-        <div>
+        <div className="mt-32">
           <Projects />
         </div>
       </BlurFade>

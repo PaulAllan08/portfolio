@@ -11,9 +11,7 @@ export default function GetInTouch() {
       <div className="flex flex-col md:justify-between gap-4 md:flex-row md:items-center md:gap-0 items-center justify-center text-center  md:text-start">
         <div className="flex items-center gap-4">
           <div>
-            <div className="text-xl">
-              Let&apos;s work on something cool together!
-            </div>
+            <div className="text-xl">Let&apos;s work together!</div>
             <div className="text-sm text-muted-foreground">
               Send me a message
             </div>
