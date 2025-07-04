@@ -113,7 +113,7 @@ const projectData: Record<
   },
 };
 
-export default function ProjectShotsPage({
+export default async function ProjectShotsPage({
   params,
 }: {
   params: { projectName: string };
