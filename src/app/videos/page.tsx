@@ -1,4 +1,3 @@
-// import { BlurFade } from "@/components/magicui/blur-fade";
 import { Button } from "@/components/ui/button";
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 import { ChevronLeft } from "lucide-react";
