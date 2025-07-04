@@ -81,7 +81,7 @@ export default function Projects() {
     <div className="space-y-4 mt-12" id="projects">
       <div className="text-sm text-muted-foreground">WEB DEV PROJECTS</div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <Link href={`/projects/coursequest/shots`}>
+        <Link href={`/project/coursequest/shots`}>
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
@@ -118,11 +118,11 @@ export default function Projects() {
           </div>
         </Link>
 
-        <Link href={`/projects/monitly/shots`}>
+        <Link href={`/project/monitly/shots`}>
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
-                src="/img/monitly/new-home.png"
+                src="/img/monitly/landingpage.png"
                 alt="monitly"
                 className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                 width={5000}
@@ -214,7 +214,7 @@ export default function Projects() {
               />
 
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <Link href="/videos">
+                <Link href="/project/videos">
                   <Button>View Project</Button>
                 </Link>
               </div>
