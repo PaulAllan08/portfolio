@@ -112,12 +112,21 @@ const projectData: Record<
     ],
   },
 };
+type PageProps = {
+  params: {
+    projectName: string;
+  };
+};
 
-export default async function ProjectShotsPage({
-  params,
-}: {
-  params: { projectName: string };
-}) {
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return Object.keys(projectData).map((projectName) => ({
+    projectName,
+  }));
+}
+
+export default function ProjectShotsPage({ params }: PageProps) {
   const { projectName } = params;
   const project = projectData[projectName];
 
