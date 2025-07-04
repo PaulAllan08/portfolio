@@ -19,25 +19,26 @@ export default function Home() {
         <div className="space-y-4">
           <div>
             <div className="text-sm text-muted-foreground text-start ">
-              COURESQUEST MARKETING VIDEO
+              READI PROTOTYPE DEMO
             </div>
             <div className="text-xl">
-              A marketing video I created for a competition called APPCON 2024.
+              A prototype I designed in Figma that I presented to the governor
+              of our province during my internship.
             </div>
           </div>
           <div className="relative">
             <HeroVideoDialog
               className="block dark:hidden"
               animationStyle="from-center"
-              videoSrc="https://www.youtube.com/embed/sZSXkdR37hw?si=D70J8K-XewJSY9rE"
-              thumbnailSrc="/img/thumbnail-coursequest.png"
+              videoSrc="https://www.youtube.com/embed/oO12JXydw00?si=_2QDA3m5eWm_AGL9"
+              thumbnailSrc="/img/thumbnail-readi.png"
               thumbnailAlt="Hero Video"
             />
             <HeroVideoDialog
               className="hidden dark:block"
               animationStyle="from-center"
-              videoSrc="https://www.youtube.com/embed/sZSXkdR37hw?si=D70J8K-XewJSY9rE"
-              thumbnailSrc="/img/thumbnail-coursequest.png"
+              videoSrc="https://www.youtube.com/embed/oO12JXydw00?si=_2QDA3m5eWm_AGL9"
+              thumbnailSrc="/img/thumbnail-readi.png"
               thumbnailAlt="Hero Video"
             />
           </div>
@@ -47,26 +48,25 @@ export default function Home() {
       <div className="space-y-4">
         <div>
           <div className="text-sm text-muted-foreground text-start ">
-            READI PROTOTYPE DEMO
+            COURESQUEST MARKETING VIDEO
           </div>
           <div className="text-xl">
-            A prototype I designed in Figma that I presented to the governor of
-            our province during my internship.
+            A marketing video I created for a competition called APPCON 2024.
           </div>
         </div>
         <div className="relative">
           <HeroVideoDialog
             className="block dark:hidden"
             animationStyle="from-center"
-            videoSrc="https://www.youtube.com/embed/oO12JXydw00?si=_2QDA3m5eWm_AGL9"
-            thumbnailSrc="/img/thumbnail-readi.png"
+            videoSrc="https://www.youtube.com/embed/sZSXkdR37hw?si=D70J8K-XewJSY9rE"
+            thumbnailSrc="/img/thumbnail-coursequest.png"
             thumbnailAlt="Hero Video"
           />
           <HeroVideoDialog
             className="hidden dark:block"
             animationStyle="from-center"
-            videoSrc="https://www.youtube.com/embed/oO12JXydw00?si=_2QDA3m5eWm_AGL9"
-            thumbnailSrc="/img/thumbnail-readi.png"
+            videoSrc="https://www.youtube.com/embed/sZSXkdR37hw?si=D70J8K-XewJSY9rE"
+            thumbnailSrc="/img/thumbnail-coursequest.png"
             thumbnailAlt="Hero Video"
           />
         </div>
