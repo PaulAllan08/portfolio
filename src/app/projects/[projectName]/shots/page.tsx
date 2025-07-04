@@ -22,7 +22,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ProjectShotsPage({ params }: PageProps) {
+export default async function ProjectShotsPage({ params }: PageProps) {
   const { projectName } = params;
   const project = projectData[projectName];
 
