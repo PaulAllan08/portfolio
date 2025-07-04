@@ -8,12 +8,6 @@ import { Icon } from "@iconify/react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { projectData } from "@/components/app/project-data";
 
-type PageProps = {
-  params: {
-    projectName: string;
-  };
-};
-
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -21,6 +15,11 @@ export async function generateStaticParams() {
     projectName,
   }));
 }
+
+// ✅ FIXED PageProps
+type PageProps = {
+  params: Awaited<ReturnType<typeof generateStaticParams>>[number];
+};
 
 export default async function ProjectShotsPage({ params }: PageProps) {
   const { projectName } = params;
