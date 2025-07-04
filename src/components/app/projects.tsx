@@ -81,7 +81,7 @@ export default function Projects() {
     <div className="space-y-4 mt-12" id="projects">
       <div className="text-sm text-muted-foreground">WEB DEV PROJECTS</div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <Link href={`/project/coursequest/shots`}>
+        <Link href={`/project/coursequest/`}>
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
@@ -118,7 +118,7 @@ export default function Projects() {
           </div>
         </Link>
 
-        <Link href={`/project/monitly/shots`}>
+        <Link href={`/project/monitly/`}>
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
