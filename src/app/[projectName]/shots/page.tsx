@@ -112,7 +112,7 @@ const projectData: Record<
     ],
   },
 };
-
+// add
 type PageProps = {
   params: {
     projectName: string;
