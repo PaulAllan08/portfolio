@@ -16,12 +16,11 @@ export async function generateStaticParams() {
   }));
 }
 
-// ✅ FIXED PageProps
-type PageProps = {
-  params: Awaited<ReturnType<typeof generateStaticParams>>[number];
-};
-
-export default async function ProjectShotsPage({ params }: PageProps) {
+export default async function ProjectShotsPage({
+  params,
+}: {
+  params: { projectName: string };
+}) {
   const { projectName } = params;
   const project = projectData[projectName];
 
