@@ -8,6 +8,7 @@ import { Icon } from "@iconify/react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { projectData } from "@/components/app/project-data";
 
+// ✅ Static generation: works with Vercel
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -16,6 +17,7 @@ export async function generateStaticParams() {
   }));
 }
 
+// ✅ DO NOT use a custom PageProps type — inline the type instead
 export default async function ProjectShotsPage({
   params,
 }: {
