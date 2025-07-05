@@ -80,14 +80,14 @@ export default function Projects() {
   return (
     <div className="space-y-4 mt-12" id="projects">
       <div className="text-sm text-muted-foreground">WEB DEV PROJECTS</div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Link href={`/project/coursequest/`}>
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
                 src="/img/coursequest/landingpage-new.png"
                 alt="coursequest"
-                className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                 width={5000}
                 height={5000}
               />
@@ -124,7 +124,7 @@ export default function Projects() {
               <Image
                 src="/img/monitly/landingpage.png"
                 alt="monitly"
-                className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                 width={5000}
                 height={5000}
               />
@@ -201,14 +201,14 @@ export default function Projects() {
         <div className="text-sm text-muted-foreground">
           UI/UX DESIGN PROJECTS
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {" "}
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
                 src="/img/readi/dashboard.png"
                 alt="coursequest"
-                className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                 width={5000}
                 height={5000}
               />
@@ -246,7 +246,7 @@ export default function Projects() {
               <Image
                 src="/img/para-po/pwd-mobile.png"
                 alt="coursequest"
-                className="border w-full h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                 width={5000}
                 height={5000}
               />

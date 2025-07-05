@@ -33,7 +33,7 @@ export default function ProjectShotsPage({
         </BlurFade>
         <div className="space-y-4">
           <BlurFade delay={0.25} inView>
-            <div className="flex justify-between items-start space-y-4 md:items-center md:flex-row flex-col">
+            <div className="flex justify-between items-start space-y-2  md:flex-row flex-col">
               <div className="text-xl font-semibold">{project.title}</div>
               {project.url && (
                 <Link href={project.url} target="_blank">
@@ -44,7 +44,7 @@ export default function ProjectShotsPage({
                 </Link>
               )}
             </div>
-            <div className="text-sm text-muted-foreground text-start">
+            <div className="text-sm text-muted-foreground text-start mt-2">
               {project.description}
             </div>
 
