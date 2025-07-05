@@ -87,5 +87,4 @@ export const projectData: Record<
       "/img/event/attendance.png",
     ],
   },
-  // ... monitly, event, genifile (copy your existing ones)
 };

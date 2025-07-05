@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { projectData } from "@/components/app/project-data";
 
-// ✅ Static generation: works with Vercel
+// Static params generation
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -17,7 +17,7 @@ export async function generateStaticParams() {
   }));
 }
 
-// ✅ DO NOT use a custom PageProps type — inline the type instead
+// ✅ Correct way to let Next.js infer the route params
 export default async function ProjectShotsPage({
   params,
 }: {
@@ -44,11 +44,11 @@ export default async function ProjectShotsPage({
         <div className="space-y-4">
           <BlurFade delay={0.25} inView>
             <div className="flex justify-between items-start space-y-4 md:items-center md:flex-row flex-col">
-              <div className="text-xl font-semibold">{project.title}</div>{" "}
+              <div className="text-xl font-semibold">{project.title}</div>
               {project.url && (
                 <Link href={project.url} target="_blank">
                   <Button>
-                    <ExternalLink />
+                    <ExternalLink className="mr-2 h-4 w-4" />
                     Visit Project
                   </Button>
                 </Link>
@@ -70,8 +70,9 @@ export default async function ProjectShotsPage({
               ))}
             </div>
           </BlurFade>
+
           <BlurFade delay={0.5} inView>
-            <div className="grid grid-cols-1 gap-4 pt-6 ">
+            <div className="grid grid-cols-1 gap-4 pt-6">
               {project.images.map((src, index) => (
                 <Image
                   key={index}
