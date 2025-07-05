@@ -8,26 +8,15 @@ import { Icon } from "@iconify/react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { projectData } from "@/components/app/project-data";
 
-// Static params generation
-export const dynamicParams = false;
-
-export async function generateStaticParams() {
-  return Object.keys(projectData).map((projectName) => ({
-    projectName,
-  }));
-}
-
-// ✅ Correct way to let Next.js infer the route params
 export default async function ProjectShotsPage({
   params,
 }: {
-  params: { projectName: string };
+  params: Record<string, string>;
 }) {
   const { projectName } = params;
   const project = projectData[projectName];
 
   if (!project) return notFound();
-
   return (
     <div className="px-4 mx-auto w-full max-w-4xl pb-32 mt-12 space-y-24">
       <div>
