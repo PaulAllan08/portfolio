@@ -7,13 +7,14 @@ import { Badge } from "@/components/ui/badge";
 import { Icon } from "@iconify/react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { projectData } from "@/components/app/project-data";
+import { use } from "react";
 
-export default async function ProjectShotsPage({
+export default function ProjectShotsPage({
   params,
 }: {
-  params: Record<string, string>;
+  params: Promise<{ projectName: string }>;
 }) {
-  const { projectName } = params;
+  const { projectName } = use(params);
   const project = projectData[projectName];
 
   if (!project) return notFound();
