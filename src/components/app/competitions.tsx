@@ -96,12 +96,9 @@ export default function Competitions() {
           <div> Hack4Gov 2 CERT-PH Cyber Challenge | DICT</div>
 
           <div className="text-sm text-muted-foreground">
-            AppCon is an annual web and mobile app competition in the
-            Philippines, started in 2018 by the President of OTis Inc. (Japan)
-            with support from ITCareer.ph, ITHured Philippines Inc., and PSITE.
-            The competition aims to address social issues in the Philippines and
-            provide participants with opportunities for recognition and societal
-            contribution.
+            HackForGov is an annual government-backed Capture-the-Flag (CTF)
+            cybersecurity competition in the Philippines, organized by
+            DICT–CERT‑PH aimed at higher‑education students.
           </div>
           <Link
             href={
