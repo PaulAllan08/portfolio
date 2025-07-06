@@ -79,7 +79,7 @@ export const genifileImg = [
 export default function Projects() {
   return (
     <div className="space-y-4 mt-12" id="projects">
-      <div className="text-sm text-muted-foreground">WEB DEV PROJECTS</div>
+      <div className="text-sm text-muted-foreground">MY PROJECTS</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Link href={`/project/coursequest/`}>
           <div className="space-y-4 border rounded-xl p-6">
@@ -197,10 +197,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="space-y-4 mt-12">
-        <div className="text-sm text-muted-foreground">
-          UI/UX DESIGN PROJECTS
-        </div>
+      <div className="space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {" "}
           <div className="space-y-4 border rounded-xl p-6">
