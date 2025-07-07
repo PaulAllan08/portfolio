@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
-export const personalStack = [
+export const courseQuestStack = [
   { name: "Svelte 5", icon: "ri:svelte-fill" },
   { name: "Sveltekit", icon: "ri:svelte-fill" },
   { name: "Tailwind CSS", icon: "mdi:tailwind" },
@@ -18,6 +18,32 @@ export const personalStack = [
   { name: "Supabase", icon: "ri:supabase-line" },
   { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
   { name: "Vercel", icon: "gg:vercel" },
+  { name: "Lucia Auth", icon: "simple-icons:lucia" },
+];
+
+export const monitlyStack = [
+  { name: "Svelte 5", icon: "ri:svelte-fill" },
+  { name: "Sveltekit", icon: "ri:svelte-fill" },
+  { name: "Tailwind CSS", icon: "mdi:tailwind" },
+  { name: "Node.js", icon: "mdi:nodejs" },
+  { name: "TypeScript", icon: "tabler:brand-typescript" },
+  { name: "Shadcn", icon: "simple-icons:shadcnui" },
+  { name: "Supabase", icon: "ri:supabase-line" },
+  { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
+  { name: "Vercel", icon: "gg:vercel" },
+  { name: "Apex Chart", icon: "gg:vercel" },
+  { name: "PayPal", icon: "hugeicons:paypal" },
+  { name: "Oauth", icon: "tabler:brand-oauth" },
+];
+
+export const eventStack = [
+  { name: "Svelte 5", icon: "ri:svelte-fill" },
+  { name: "Sveltekit", icon: "ri:svelte-fill" },
+  { name: "Tailwind CSS", icon: "mdi:tailwind" },
+  { name: "Node.js", icon: "mdi:nodejs" },
+  { name: "TypeScript", icon: "tabler:brand-typescript" },
+  { name: "Shadcn", icon: "simple-icons:shadcnui" },
+  { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
 ];
 
 export const nextStack = [
@@ -105,7 +131,7 @@ export default function Projects() {
             </div>
 
             <div className="gap-2 flex flex-wrap">
-              {personalStack.map((stack) => (
+              {courseQuestStack.map((stack) => (
                 <Badge
                   key={stack.name}
                   className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
@@ -142,7 +168,7 @@ export default function Projects() {
             </div>
 
             <div className="gap-2 flex flex-wrap">
-              {personalStack.map((stack) => (
+              {monitlyStack.map((stack) => (
                 <Badge
                   key={stack.name}
                   className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
@@ -171,7 +197,7 @@ export default function Projects() {
           </div>
 
           <div className="text-xl">
-            Event Management System with QR Attendance Tracking
+            Event Management System with QR Attendance Tracking (SPA)
           </div>
           <div className="text-sm text-muted-foreground">
             The system is an Event Management and Attendance Tracking platform
@@ -184,7 +210,7 @@ export default function Projects() {
           </div>
 
           <div className="gap-2 flex flex-wrap">
-            {personalStack.map((stack) => (
+            {eventStack.map((stack) => (
               <Badge
                 key={stack.name}
                 className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"

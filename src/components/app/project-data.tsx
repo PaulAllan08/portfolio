@@ -23,6 +23,7 @@ export const projectData: Record<
       { name: "Supabase", icon: "ri:supabase-line" },
       { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
       { name: "Vercel", icon: "gg:vercel" },
+      { name: "Lucia Auth", icon: "simple-icons:lucia" },
     ],
     images: [
       "/img/coursequest/full-landingpage.png",
@@ -53,6 +54,7 @@ export const projectData: Record<
       { name: "Vercel", icon: "gg:vercel" },
       { name: "Apex Chart", icon: "gg:vercel" },
       { name: "PayPal", icon: "hugeicons:paypal" },
+      { name: "Oauth", icon: "tabler:brand-oauth" },
     ],
     images: [
       "/img/monitly/landingpage-full.png",
@@ -65,7 +67,7 @@ export const projectData: Record<
     ],
   },
   event: {
-    title: "Event Management System",
+    title: "Event Management System with QR Attendance Tracking (SPA)",
     description:
       "The system is an Event Management and Attendance Tracking platform that I developed during my internship it streamlines event organization and attendance recording using QR codes, developed in my internship at PITO (Provincial Information and Technology Office). Administrators can create custom events, manage employees, offices, and users, while each employee uses a unique QR code to check in at events.",
     tools: [

@@ -14,6 +14,8 @@ export const skills = [
   { name: "Shadcn", icon: "simple-icons:shadcnui" },
   { name: "Supabase", icon: "ri:supabase-line" },
   { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
+  { name: "Oauth", icon: "tabler:brand-oauth" },
+  { name: "Lucia Auth", icon: "simple-icons:lucia" },
   { name: "Postgres SQL", icon: "akar-icons:postgresql-fill" },
   { name: "Figma", icon: "solar:figma-outline" },
   { name: "Framer", icon: "teenyicons:framer-outline" },
