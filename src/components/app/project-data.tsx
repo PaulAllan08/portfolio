@@ -89,4 +89,22 @@ export const projectData: Record<
       "/img/event/attendance.png",
     ],
   },
+  drizzup: {
+    url: "https://drizzup.vercel.app/",
+    title: "DrizzUp",
+    description:
+      "A modern and stylish e-commerce platform crafted for fashion-forward brands. DrizzUp combines clean design with seamless user experience, making it effortless for customers to explore, discover, and shop the latest trends in clothing and apparel.",
+    tools: [
+      { name: "React", icon: "mdi:react" },
+      { name: "Next js", icon: "ri:nextjs-fill" },
+      { name: "Tailwind CSS", icon: "mdi:tailwind" },
+      { name: "TypeScript", icon: "tabler:brand-typescript" },
+      { name: "Shadcn", icon: "simple-icons:shadcnui" },
+      { name: "Vercel", icon: "gg:vercel" },
+    ],
+    images: [
+      "/img/drizzup/landingpage.png",
+      "/img/drizzup/landingpage-full.png",
+    ],
+  },
 };

@@ -52,8 +52,8 @@ export const nextStack = [
   { name: "Tailwind CSS", icon: "mdi:tailwind" },
   { name: "TypeScript", icon: "tabler:brand-typescript" },
   { name: "Shadcn", icon: "simple-icons:shadcnui" },
-  { name: "Supabase", icon: "ri:supabase-line" },
-  { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
+  // { name: "Supabase", icon: "ri:supabase-line" },
+  // { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
   { name: "Vercel", icon: "gg:vercel" },
 ];
 
@@ -105,10 +105,10 @@ export const genifileImg = [
 export default function Projects() {
   return (
     <div className="space-y-4 mt-12" id="projects">
-      <div className="text-sm text-muted-foreground">MY PROJECTS</div>
+      <div className="text-sm text-muted-foreground">FULL-STACK PROJECTS</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Link href={`/project/coursequest/`}>
-          <div className="space-y-4 border rounded-xl p-6">
+          <div className="space-y-4 border rounded-xl p-6 h-full">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
                 src="/img/coursequest/landingpage-new.png"
@@ -145,7 +145,7 @@ export default function Projects() {
         </Link>
 
         <Link href={`/project/monitly/`}>
-          <div className="space-y-4 border rounded-xl p-6">
+          <div className="space-y-4 border rounded-xl p-6 h-full">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
                 src="/img/monitly/landingpage.png"
@@ -180,9 +180,7 @@ export default function Projects() {
             </div>
           </div>
         </Link>
-      </div>
-      <div className="grid grid-cols-1  gap-4">
-        <div className="space-y-4 border rounded-xl p-6">
+        <div className="space-y-4 border rounded-xl p-6 lg:col-span-2">
           <div className="relative group rounded-xl overflow-hidden">
             <Image
               src="/img/event/login.png"
@@ -223,9 +221,47 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-4 pt-24">
+        <div className="text-sm text-muted-foreground">DESIGN PROJECTS</div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {" "}
+          <Link href={`/project/drizzup/`} className="lg:col-span-2">
+            {" "}
+            <div className="space-y-4 border rounded-xl p-6 ">
+              <div className="relative group rounded-xl overflow-hidden">
+                <Image
+                  src="/img/drizzup/landingpage.png"
+                  alt="drizzup"
+                  className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                  width={5000}
+                  height={5000}
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <Button>View Project</Button>
+                </div>
+              </div>
+              <div className="text-xl">DrizzUp</div>
+              <div className="text-sm text-muted-foreground">
+                A modern and stylish e-commerce platform crafted for
+                fashion-forward brands. DrizzUp combines clean design with
+                seamless user experience, making it effortless for customers to
+                explore, discover, and shop the latest trends in clothing and
+                apparel.
+              </div>
+              <div className="gap-2 flex flex-wrap">
+                {nextStack.map((stack) => (
+                  <Badge
+                    key={stack.name}
+                    className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+                  >
+                    <Icon icon={stack.icon} className="w-4 h-4" />
+                    {stack.name}
+                  </Badge>
+                ))}
+              </div>{" "}
+            </div>{" "}
+          </Link>
           <div className="space-y-4 border rounded-xl p-6">
             <div className="relative group rounded-xl overflow-hidden">
               <Image
