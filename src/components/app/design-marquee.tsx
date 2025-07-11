@@ -5,6 +5,7 @@ import { Dribbble } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 const reviews = [
+  { img: "/img/designs/drizzup.png" },
   { img: "/img/designs/login.png" },
   { img: "/img/designs/chainsaw.png" },
   { img: "/img/designs/coffee-app.png" },
