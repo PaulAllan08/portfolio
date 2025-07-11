@@ -57,13 +57,13 @@ export const projectData: Record<
       { name: "Oauth", icon: "tabler:brand-oauth" },
     ],
     images: [
-      "/img/monitly/landingpage-full.png",
+      "/img/monitly/login.png",
+      "/img/monitly/register.png",
       "/img/monitly/url-dashboard.png",
       "/img/monitly/dashboard.png",
       "/img/monitly/add-monitor.png",
-      "/img/monitly/login.png",
-      "/img/monitly/register.png",
       "/img/monitly/email-new.png",
+      "/img/monitly/landingpage-full.png",
     ],
   },
   event: {

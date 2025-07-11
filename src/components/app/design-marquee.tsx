@@ -41,10 +41,7 @@ export default function MarqueeDemo() {
     <div>
       <div className="mx-auto max-w-4xl px-4 flex md:flex-row flex-col items-start md:items-center justify-between space-y-4">
         <div className="flex flex-col">
-          <div className="text-sm text-muted-foreground">
-            {" "}
-            MY DESIGN PROJECTS
-          </div>
+          <div className="text-sm text-muted-foreground">MY GALLERY</div>
           <div>These are the designs that I have worked on.</div>
         </div>
         <Link href="https://dribbble.com/Saul_08" target="_blank">
