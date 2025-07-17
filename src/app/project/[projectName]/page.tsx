@@ -37,10 +37,10 @@ export default function ProjectShotsPage({
               <div className="text-xl font-semibold">{project.title}</div>
               {project.url && (
                 <Link href={project.url} target="_blank">
-                  <Button>
-                    <ExternalLink className="mr-2 h-4 w-4" />
+                  <span className="inline-flex items-center gap-2 underline text-primary font-medium">
+                    <ExternalLink className="animate-bounce h-4 w-4" />
                     Visit Project
-                  </Button>
+                  </span>
                 </Link>
               )}
             </div>

@@ -152,7 +152,7 @@ export default function Projects() {
                     {courseQuestStack.map((stack) => (
                       <Badge
                         key={stack.name}
-                        className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+                        className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
                       >
                         <Icon icon={stack.icon} className="w-4 h-4" />
                         {stack.name}
@@ -190,7 +190,7 @@ export default function Projects() {
                     {monitlyStack.map((stack) => (
                       <Badge
                         key={stack.name}
-                        className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+                        className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
                       >
                         <Icon icon={stack.icon} className="w-4 h-4" />
                         {stack.name}
@@ -230,7 +230,7 @@ export default function Projects() {
                   {eventStack.map((stack) => (
                     <Badge
                       key={stack.name}
-                      className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+                      className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
                     >
                       <Icon icon={stack.icon} className="w-4 h-4" />
                       {stack.name}
@@ -271,7 +271,7 @@ export default function Projects() {
                       {nextStack.map((stack) => (
                         <Badge
                           key={stack.name}
-                          className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+                          className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
                         >
                           <Icon icon={stack.icon} className="w-4 h-4" />
                           {stack.name}
@@ -311,7 +311,7 @@ export default function Projects() {
                     {design.map((stack) => (
                       <Badge
                         key={stack.name}
-                        className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+                        className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
                       >
                         <Icon icon={stack.icon} className="w-4 h-4" />
                         {stack.name}
@@ -345,7 +345,7 @@ export default function Projects() {
                     {design.map((stack) => (
                       <Badge
                         key={stack.name}
-                        className="bg-primary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out dark:bg-secondary"
+                        className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
                       >
                         <Icon icon={stack.icon} className="w-4 h-4" />
                         {stack.name}

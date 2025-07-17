@@ -52,15 +52,11 @@ export default function MarqueeDemo() {
         </Link>
       </div>
       <div className="mt-4 relative flex w-full items-center justify-center overflow-hidden">
-        <Marquee pauseOnHover className="[--duration:25s]">
+        <Marquee pauseOnHover className="[--duration:30s]">
           {reviews.map((r) => (
             <DesignCard key={r.img} img={r.img} />
           ))}
         </Marquee>
-
-        {/* side gradients */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background" />
       </div>
     </div>
   );

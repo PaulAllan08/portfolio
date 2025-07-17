@@ -85,10 +85,10 @@ export default function Home() {
               />
               <div>
                 <div className="text-xl">
-                  Privincial Information Technology Office Bataan
+                  Privincial Information Technology Office Bataan (PITO)
                 </div>
                 <div className="text-sm text-muted-foreground">
-                  Web Developer Intern (On-site)
+                  Web Developer/Designer Intern (On-site)
                 </div>
               </div>
             </div>

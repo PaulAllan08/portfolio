@@ -9,7 +9,6 @@ export const skills = [
   { name: "Sveltekit", icon: "ri:svelte-fill" },
   { name: "React", icon: "akar-icons:react-fill" },
   { name: "Next.js", icon: "ri:nextjs-fill" },
-  { name: "Node.js", icon: "mdi:nodejs" },
   { name: "TypeScript", icon: "tabler:brand-typescript" },
   { name: "Shadcn", icon: "simple-icons:shadcnui" },
   { name: "Supabase", icon: "ri:supabase-line" },
@@ -19,7 +18,7 @@ export const skills = [
   { name: "Postgres SQL", icon: "akar-icons:postgresql-fill" },
   { name: "Figma", icon: "solar:figma-outline" },
   { name: "Framer", icon: "teenyicons:framer-outline" },
-  { name: "Adobe XD", icon: "dhugeicons:adobe-xd" },
+  { name: "Adobe XD", icon: "hugeicons:adobe-xd" },
   { name: "Git", icon: "mdi:git" },
   { name: "Github", icon: "mdi:github" },
   { name: "Vercel", icon: "gg:vercel" },
@@ -35,9 +34,9 @@ export default function Skills() {
         {skills.map((skill) => (
           <Badge
             key={skill.name}
-            className="bg-primary dark:bg-secondary border border-transparent hover:border-primary transition-colors duration-300 ease-in-out "
+            className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
           >
-            <Icon icon={skill.icon} className="w-4 h-4" />
+            <Icon icon={skill.icon} className="w-6 h-6" />
             {skill.name}
           </Badge>
         ))}

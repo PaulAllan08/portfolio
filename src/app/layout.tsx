@@ -1,23 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { Navbar } from "@/components/app/navbar";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "Paul Allan Palacio",
   description:
-    "Hi,I'm Paul Allan Palacio a Web Developer and UI/UX Designer checkout my portfolio",
+    "Hi, I'm Paul Allan Palacio a Web Developer and UI/UX Designer checkout my portfolio",
 };
 
 export default function RootLayout({
@@ -28,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${dmSans.variable} ${dmSans.className} font-sans antialiased`}
       >
         <ThemeProvider
           attribute="class"
