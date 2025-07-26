@@ -18,7 +18,6 @@ export const skills = [
   { name: "Postgres SQL", icon: "akar-icons:postgresql-fill" },
   { name: "Figma", icon: "solar:figma-outline" },
   { name: "Framer", icon: "teenyicons:framer-outline" },
-  { name: "Adobe XD", icon: "hugeicons:adobe-xd" },
   { name: "Git", icon: "mdi:git" },
   { name: "Github", icon: "mdi:github" },
   { name: "Vercel", icon: "gg:vercel" },

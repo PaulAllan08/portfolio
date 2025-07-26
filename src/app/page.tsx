@@ -4,7 +4,7 @@ import {
   Projects,
   Competitions,
   GetInTouch,
-  DesignMarquee,
+  Gallery,
 } from "@/components/app";
 
 import { BlurFade } from "@/components/magicui/blur-fade";
@@ -15,27 +15,27 @@ export default function Home() {
       <div className="px-4  mx-auto w-full max-w-4xl">
         <Hero />
       </div>
-      <BlurFade delay={1} inView>
+      <BlurFade delay={0.5} inView>
         <div className="px-4  mx-auto w-full max-w-4xl">
           <Skills />
         </div>
       </BlurFade>
-      <BlurFade delay={1} inView>
+      <BlurFade delay={0.5} inView>
         <div className="px-4  mt-32 mx-auto w-full max-w-4xl">
           <Projects />
         </div>
       </BlurFade>
-      <BlurFade delay={1} inView>
+      <BlurFade delay={0.5} inView>
         <div className="px-4  mt-32">
-          <DesignMarquee />
+          <Gallery />
         </div>
       </BlurFade>
-      <BlurFade delay={1} inView>
+      <BlurFade delay={0.5} inView>
         <div className="px-4  mt-32 mx-auto w-full max-w-4xl">
           <Competitions />
         </div>
       </BlurFade>
-      <BlurFade delay={1} inView>
+      <BlurFade delay={0.5} inView>
         <div className="px-4  mt-32 mx-auto w-full max-w-4xl">
           <GetInTouch />
         </div>

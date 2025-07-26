@@ -114,15 +114,15 @@ export default function Projects() {
     <div className="space-y-4 mt-12" id="projects">
       <Tabs>
         <TabsList>
-          <TabsTrigger value="fullstack" className="text-sm font-normal">
-            FULL-STACK PROJECTS
+          <TabsTrigger value="web-dev" className="text-sm font-normal">
+            WEB DEV PROJECTS
           </TabsTrigger>
           <TabsTrigger value="design" className="text-sm font-normal">
-            DESIGN PROJECTS
+            UI/UX DESIGN PROJECTS
           </TabsTrigger>
         </TabsList>
         <TabsContents>
-          <TabsContent value="fullstack">
+          <TabsContent value="web-dev">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Link href={`/project/coursequest/`}>
                 <div className="space-y-4 border rounded-xl p-6 h-full">
@@ -135,7 +135,7 @@ export default function Projects() {
                       height={5000}
                     />
                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                      <Button>View Project</Button>
+                      <Button className="cursor-pointer">View Project</Button>
                     </div>
                   </div>
 
@@ -146,18 +146,6 @@ export default function Projects() {
                     streamlines courses to make learning more efficient,
                     offering free IT courses with certification provided by DICT
                     upon completion.
-                  </div>
-
-                  <div className="gap-2 flex flex-wrap">
-                    {courseQuestStack.map((stack) => (
-                      <Badge
-                        key={stack.name}
-                        className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
-                      >
-                        <Icon icon={stack.icon} className="w-4 h-4" />
-                        {stack.name}
-                      </Badge>
-                    ))}
                   </div>
                 </div>
               </Link>
@@ -173,7 +161,7 @@ export default function Projects() {
                       height={5000}
                     />
                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                      <Button>View Project</Button>
+                      <Button className="cursor-pointer">View Project</Button>
                     </div>
                   </div>
 
@@ -185,21 +173,34 @@ export default function Projects() {
                     and quickly respond to issues by alerting them once the
                     website is down.
                   </div>
-
-                  <div className="gap-2 flex flex-wrap">
-                    {monitlyStack.map((stack) => (
-                      <Badge
-                        key={stack.name}
-                        className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
-                      >
-                        <Icon icon={stack.icon} className="w-4 h-4" />
-                        {stack.name}
-                      </Badge>
-                    ))}
-                  </div>
                 </div>
               </Link>
-              <div className="space-y-4 border rounded-xl p-6 lg:col-span-2">
+              <Link href={`/project/drizzup/`}>
+                {" "}
+                <div className="space-y-4 border rounded-xl p-6 ">
+                  <div className="relative group rounded-xl overflow-hidden">
+                    <Image
+                      src="/img/drizzup/landingpage.png"
+                      alt="drizzup"
+                      className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                      width={5000}
+                      height={5000}
+                    />
+                    <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <Button className="cursor-pointer">View Project</Button>
+                    </div>
+                  </div>
+                  <div className="text-xl">DrizzUp</div>
+                  <div className="text-sm text-muted-foreground">
+                    A modern and stylish e-commerce platform crafted for
+                    fashion-forward brands. DrizzUp combines clean design with
+                    seamless user experience, making it effortless for customers
+                    to explore, discover, and shop the latest trends in clothing
+                    and apparel.
+                  </div>
+                </div>{" "}
+              </Link>
+              <div className="space-y-4 border rounded-xl p-6 ">
                 <div className="relative group rounded-xl overflow-hidden">
                   <Image
                     src="/img/event/login.png"
@@ -209,7 +210,7 @@ export default function Projects() {
                     height={5000}
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <Button>View Project</Button>
+                    <Button className="cursor-pointer">View Project</Button>
                   </div>
                 </div>
 
@@ -217,25 +218,9 @@ export default function Projects() {
                   Event Management System with QR Attendance Tracking (SPA)
                 </div>
                 <div className="text-sm text-muted-foreground">
-                  The system is an Event Management and Attendance Tracking
-                  platform that I developed during my internship it streamlines
-                  event organization and attendance recording using QR codes,
-                  developed in my internship at PITO (Provincial Information and
-                  Technology Office). Administrators can create custom events,
-                  manage employees, offices, and users, while each employee uses
-                  a unique QR code to check in at events.
-                </div>
-
-                <div className="gap-2 flex flex-wrap">
-                  {eventStack.map((stack) => (
-                    <Badge
-                      key={stack.name}
-                      className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
-                    >
-                      <Icon icon={stack.icon} className="w-4 h-4" />
-                      {stack.name}
-                    </Badge>
-                  ))}
+                  An Event Management and Attendance Tracking system using QR
+                  codes, developed in my internship at PITO (Provincial
+                  Information and Technology Office).
                 </div>
               </div>
             </div>
@@ -244,42 +229,6 @@ export default function Projects() {
             <div className="space-y-4 ">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {" "}
-                <Link href={`/project/drizzup/`} className="lg:col-span-2">
-                  {" "}
-                  <div className="space-y-4 border rounded-xl p-6 ">
-                    <div className="relative group rounded-xl overflow-hidden">
-                      <Image
-                        src="/img/drizzup/landingpage.png"
-                        alt="drizzup"
-                        className="border w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
-                        width={5000}
-                        height={5000}
-                      />
-                      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                        <Button>View Project</Button>
-                      </div>
-                    </div>
-                    <div className="text-xl">DrizzUp</div>
-                    <div className="text-sm text-muted-foreground">
-                      A modern and stylish e-commerce platform crafted for
-                      fashion-forward brands. DrizzUp combines clean design with
-                      seamless user experience, making it effortless for
-                      customers to explore, discover, and shop the latest trends
-                      in clothing and apparel.
-                    </div>
-                    <div className="gap-2 flex flex-wrap">
-                      {nextStack.map((stack) => (
-                        <Badge
-                          key={stack.name}
-                          className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
-                        >
-                          <Icon icon={stack.icon} className="w-4 h-4" />
-                          {stack.name}
-                        </Badge>
-                      ))}
-                    </div>{" "}
-                  </div>{" "}
-                </Link>
                 <div className="space-y-4 border rounded-xl p-6">
                   <div className="relative group rounded-xl overflow-hidden">
                     <Image
@@ -292,7 +241,7 @@ export default function Projects() {
 
                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                       <Link href="/project/videos">
-                        <Button>View Project</Button>
+                        <Button className="cursor-pointer">View Project</Button>
                       </Link>
                     </div>
                   </div>
@@ -330,7 +279,7 @@ export default function Projects() {
                     />
 
                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                      <Button>View Project</Button>
+                      <Button className="cursor-pointer">View Project</Button>
                     </div>
                   </div>
 

@@ -7,7 +7,7 @@ export default function Competitions() {
   return (
     <div className="space-y-4 mt-12 ">
       <div className="text-sm text-muted-foreground">
-        COMPETITIONS / HACKATHON
+        HACKATHONS / CERTIFICATIONS
       </div>
       <ul className="mb-4 ml-4  border-l">
         <li className="relative ml-10 space-y-2 mb-12">
@@ -37,7 +37,7 @@ export default function Competitions() {
             }
             target="_blank"
           >
-            <Button className="mt-4">
+            <Button className="mt-4 cursor-pointer">
               <ShieldCheck />
               View Certificate
             </Button>
@@ -74,7 +74,7 @@ export default function Competitions() {
             }
             target="_blank"
           >
-            <Button className="mt-4">
+            <Button className="mt-4 cursor-pointer">
               <ShieldCheck />
               View Certificate
             </Button>
@@ -106,7 +106,7 @@ export default function Competitions() {
             }
             target="_blank"
           >
-            <Button className="mt-4">
+            <Button className="mt-4 cursor-pointer">
               <ShieldCheck />
               View Certificate
             </Button>
@@ -144,7 +144,7 @@ export default function Competitions() {
             }
             target="_blank"
           >
-            <Button className="mt-4">
+            <Button className="mt-4 cursor-pointer">
               <ShieldCheck />
               View Certificate
             </Button>
@@ -178,7 +178,7 @@ export default function Competitions() {
             }
             target="_blank"
           >
-            <Button className="mt-4">
+            <Button className="mt-4 cursor-pointer">
               <ShieldCheck />
               View Certificate
             </Button>

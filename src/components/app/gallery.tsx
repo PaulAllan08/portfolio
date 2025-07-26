@@ -36,7 +36,7 @@ const DesignCard = ({ img }: { img: string }) => (
   </figure>
 );
 
-export default function MarqueeDemo() {
+export default function DesignMarquee() {
   return (
     <div>
       <div className="mx-auto max-w-4xl px-4 flex md:flex-row flex-col items-start md:items-center justify-between space-y-4">
@@ -45,7 +45,7 @@ export default function MarqueeDemo() {
           <div>These are the designs that I have worked on.</div>
         </div>
         <Link href="https://dribbble.com/Saul_08" target="_blank">
-          <Button>
+          <Button className=" cursor-pointer">
             <Dribbble />
             View Designs
           </Button>

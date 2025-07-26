@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FileSymlinkIcon } from "lucide-react";
-import { DotPattern } from "@/components/magicui/dot-pattern";
+import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -9,11 +9,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="  mx-auto w-full  ">
-      <BlurFade delay={0.25} inView>
-        <div className="relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background">
-          <DotPattern
+      <BlurFade delay={0.5} inView>
+        <div className="relative flex h-[450px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background">
+          <AnimatedGridPattern
+            numSquares={30}
+            maxOpacity={0.1}
+            duration={3}
+            repeatDelay={1}
             className={cn(
-              "[mask-image:radial-gradient(250px_circle_at_center,white,transparent)]"
+              "[mask-image:radial-gradient(250px_circle_at_center,white,transparent)]",
+              "inset-x-0 inset-y-[-50%] h-[200%] skew-y-0"
             )}
           />
 
@@ -71,7 +76,7 @@ export default function Home() {
         </div>
       </BlurFade>
 
-      <BlurFade delay={0.75} inView>
+      <BlurFade delay={0.5} inView>
         <div className="space-y-4 mt-12">
           <div className="text-sm text-muted-foreground">EXPERIENCE</div>
           <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center md:gap-0">
@@ -99,7 +104,7 @@ export default function Home() {
         </div>
       </BlurFade>
 
-      <BlurFade delay={1} inView>
+      <BlurFade delay={0.5} inView>
         <div className="space-y-4 mt-12">
           <div className="text-sm text-muted-foreground">EDUCATION</div>
           <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center md:gap-0">
