@@ -232,8 +232,48 @@ export default function Projects() {
                 <div className="space-y-4 border rounded-xl p-6">
                   <div className="relative group rounded-xl overflow-hidden">
                     <Image
+                      src="/img/midas/midas-cover.png"
+                      alt="midasabank"
+                      className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                      width={5000}
+                      height={5000}
+                    />
+
+                    <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <Link
+                        target="_blank"
+                        href="https://www.figma.com/design/Y5uIDNyr8cmmspxWM7KRC8/Untitled?node-id=0-1&t=2p1r3rHPeuTpw31A-1"
+                      >
+                        <Button className="cursor-pointer">View Project</Button>
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="text-xl">Midas Bank App</div>
+                  <div className="text-sm text-muted-foreground">
+                    Midas Bank is a mobile banking application. This is my UI
+                    bootcamp project output that got me hired at Frost Design &
+                    Consulting Group Inc. You can access this project on figma
+                    the file includes screens, typography, and color palette.
+                  </div>
+
+                  <div className="gap-2 flex flex-wrap">
+                    {design.map((stack) => (
+                      <Badge
+                        key={stack.name}
+                        className="bg-primary dark:bg-secondary border border-transparent hover:border-primary dark:hover:bg-primary transition-colors duration-300 ease-in-out text-sm"
+                      >
+                        <Icon icon={stack.icon} className="w-4 h-4" />
+                        {stack.name}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+                <div className="space-y-4 border rounded-xl p-6">
+                  <div className="relative group rounded-xl overflow-hidden">
+                    <Image
                       src="/img/readi/dashboard.png"
-                      alt="coursequest"
+                      alt="readi"
                       className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                       width={5000}
                       height={5000}
@@ -272,7 +312,7 @@ export default function Projects() {
                   <div className="relative group rounded-xl overflow-hidden">
                     <Image
                       src="/img/para-po/pwd-mobile.png"
-                      alt="coursequest"
+                      alt="parapo"
                       className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                       width={5000}
                       height={5000}

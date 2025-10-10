@@ -136,11 +136,12 @@ export default function Home() {
                 <div>
                   <div>Frost Design & Consulting Group Inc.</div>
                   <div className="text-sm text-muted-foreground">
-                    UI/Visual Designer (remote)
+                    UI/Visual Designer (Remote)
                   </div>
                 </div>
-                <div className="text-sm text-muted-foreground">
-                  July 2025 to Sep 2025
+                <div className="text-sm  ">
+                  <div className="text-end font-bold">Contract</div>
+                  <div className="text-muted-foreground">July to Sep 2025</div>
                 </div>
               </div>
             </li>
@@ -163,11 +164,12 @@ export default function Home() {
                     Provincial Information Technology Office Bataan (PITO)
                   </div>
                   <div className="text-sm text-muted-foreground">
-                    Web Developer/Designer Intern (On-site)
+                    Web Developer/Designer (On-site)
                   </div>
                 </div>
-                <div className="text-sm text-muted-foreground">
-                  Aug 2024 to Dec 2024
+                <div className="text-sm ">
+                  <div className="text-end font-bold">Internship</div>
+                  <div className="text-muted-foreground">Aug to Dec 2024</div>
                 </div>
               </div>
             </li>
