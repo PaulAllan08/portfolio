@@ -95,7 +95,7 @@ export default function Home() {
         <div className="space-y-4 mt-12">
           <div className="text-sm text-muted-foreground">EXPERIENCE</div>
           <ul className="mb-4 ml-6 border-l">
-            <li className="relative ml-10 mb-12">
+            {/* <li className="relative ml-10 mb-12">
               <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
                 <Avatar className="border size-12 m-auto">
                   <AvatarImage
@@ -118,7 +118,7 @@ export default function Home() {
                   Aug 2025 to Present
                 </div>
               </div>
-            </li>
+            </li> */}
 
             <li className="relative ml-10 mb-12">
               <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
@@ -136,11 +136,11 @@ export default function Home() {
                 <div>
                   <div>Frost Design & Consulting Group Inc.</div>
                   <div className="text-sm text-muted-foreground">
-                    UI Designer (remote)
+                    UI/Visual Designer (remote)
                   </div>
                 </div>
                 <div className="text-sm text-muted-foreground">
-                  July 2025 to Present
+                  July 2025 to Sep 2025
                 </div>
               </div>
             </li>

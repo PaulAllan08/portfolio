@@ -14,6 +14,35 @@ export default function Competitions() {
           <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
             <Avatar className="border size-12 m-auto">
               <AvatarImage
+                src="/img/frost.jpg"
+                alt="logo"
+                className="object-cover"
+              />
+              <AvatarFallback>logo</AvatarFallback>
+            </Avatar>
+          </div>
+          <div className="text-sm text-muted-foreground">June 2024</div>
+          <div>UI Design Boot Camp | Frost Design & Consulting Group Inc.</div>
+
+          <div className="text-sm text-muted-foreground">
+            UI Bootcamp organized by Frost Design & Consulting Group Inc.
+          </div>
+          <Link
+            href={
+              "https://www.linkedin.com/in/paulallanpalacio/details/certifications/"
+            }
+            target="_blank"
+          >
+            <Button className="mt-4 cursor-pointer">
+              <ShieldCheck />
+              View Certificate
+            </Button>
+          </Link>
+        </li>
+        <li className="relative ml-10 space-y-2 mb-12">
+          <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+            <Avatar className="border size-12 m-auto">
+              <AvatarImage
                 src="/img/synergy-2024.png"
                 alt="logo"
                 className="object-cover"
