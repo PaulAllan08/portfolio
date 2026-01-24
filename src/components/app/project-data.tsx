@@ -60,7 +60,7 @@ export const projectData: Record<
       "/img/monitly/url-dashboard.png",
       "/img/monitly/dashboard.png",
       "/img/monitly/add-monitor.png",
-      "/img/monitly/email-new.png",
+      // "/img/monitly/email-new.png",
       "/img/monitly/landingpage-full.png",
     ],
   },

@@ -269,7 +269,7 @@ export default function Projects() {
                     ))}
                   </div>
                 </div>
-                <div className="space-y-4 rounded-xl  h-full">
+                {/* <div className="space-y-4 rounded-xl  h-full">
                   <div className="relative group rounded-xl overflow-hidden">
                     <Image
                       src="/img/readi/dashboard.png"
@@ -307,8 +307,8 @@ export default function Projects() {
                       </Badge>
                     ))}
                   </div>
-                </div>
-                <div className="space-y-4 rounded-xl  h-full">
+                </div> */}
+                {/* <div className="space-y-4 rounded-xl  h-full">
                   <div className="relative group rounded-xl overflow-hidden">
                     <Image
                       src="/img/para-po/pwd-mobile.png"
@@ -341,7 +341,7 @@ export default function Projects() {
                       </Badge>
                     ))}
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </TabsContent>

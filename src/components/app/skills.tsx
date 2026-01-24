@@ -11,10 +11,12 @@ export const skills = [
   { name: "Next.js", icon: "ri:nextjs-fill" },
   { name: "TypeScript", icon: "tabler:brand-typescript" },
   { name: "Shadcn", icon: "simple-icons:shadcnui" },
+  { name: "Neon", icon: "token:neon-evm" },
   { name: "Supabase", icon: "ri:supabase-line" },
   { name: "Drizzle ORM", icon: "simple-icons:drizzle" },
   { name: "Oauth", icon: "tabler:brand-oauth" },
   { name: "Lucia Auth", icon: "simple-icons:lucia" },
+  { name: "Better Auth", icon: "simple-icons:betterauth" },
   { name: "Postgres SQL", icon: "akar-icons:postgresql-fill" },
   { name: "Figma", icon: "solar:figma-outline" },
   { name: "Framer", icon: "teenyicons:framer-outline" },
@@ -22,7 +24,8 @@ export const skills = [
   { name: "Github", icon: "mdi:github" },
   { name: "Vercel", icon: "gg:vercel" },
   { name: "Docker", icon: "mdi:docker" },
-  { name: "PayPal", icon: "hugeicons:paypal" },
+
+  // { name: "PayPal", icon: "hugeicons:paypal" },
 ];
 
 export default function Skills() {
