@@ -232,7 +232,7 @@ export default function Projects() {
                 <div className="space-y-4 rounded-xl  h-full">
                   <div className="relative group rounded-xl overflow-hidden">
                     <Image
-                      src="/img/midas/midas-cover.png"
+                      src="/img/midas/midasbank.png"
                       alt="midasabank"
                       className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                       width={5000}
@@ -242,7 +242,7 @@ export default function Projects() {
                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                       <Link
                         target="_blank"
-                        href="https://www.figma.com/design/Y5uIDNyr8cmmspxWM7KRC8/Untitled?node-id=0-1&t=2p1r3rHPeuTpw31A-1"
+                        href="https://www.figma.com/design/Y5uIDNyr8cmmspxWM7KRC8/MidasBank-App?node-id=1-7285&p=f"
                       >
                         <Button className="cursor-pointer">View Project</Button>
                       </Link>
