@@ -54,13 +54,10 @@ export default function Home() {
         <div className=" space-y-4">
           <div className="text-xs text-muted-foreground">ABOUT ME</div>
           <div>
-            Hi, I&apos;m Paul Allan Palacio, a enthusiastic Web Developer and
-            UI/UX Designer. My journey began with C# and VB.NET, but over time,
-            I discovered a deep love for crafting beautiful, user-centered
-            interfaces and websites. With my technical and design expertise, I
-            strive to develop intuitive web applications that enhance user
-            experience and drive business growth through innovative,
-            user-focused solutions.
+            Product-focused Web Developer and Product Designer with hands-on experience designing and building digital 
+            products from MVP to launch. I bridge design and engineering by crafting intuitive, brand-aligned interfaces and 
+            implementing them through scalable solutions. Experienced working cross-functionally with product managers, 
+            stakeholders, and engineers, with a strong foundation in both UI/UX design and full-stack development.
           </div>
         </div>
       </BlurFade>
@@ -114,8 +111,10 @@ export default function Home() {
                     Junior Software Engineer (On-site)
                   </div>
                 </div>
-                <div className="text-sm text-muted-foreground">
-                  Aug 2025 to Present
+                
+                <div className="text-sm  ">
+                  <div className="text-end font-bold">Contract</div>
+                  <div className="text-muted-foreground">   Aug 2025 to Present</div>
                 </div>
               </div>
             </li>
