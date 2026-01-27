@@ -154,7 +154,7 @@ export default function Projects() {
                 <div className="space-y-4  rounded-xl h-full">
                   <div className="relative group rounded-xl overflow-hidden">
                     <Image
-                      src="/img/monitly/landingpage.png"
+                      src="/img/monitly/hero.png"
                       alt="monitly"
                       className="border w-full h-full md:h-52 object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                       width={5000}
