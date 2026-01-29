@@ -21,7 +21,7 @@ export default function Competitions() {
               <AvatarFallback>logo</AvatarFallback>
             </Avatar>
           </div>
-          <div className="text-sm text-muted-foreground">June 2024</div>
+          <div className="text-sm text-muted-foreground">Jul 2025</div>
           <div>UI Design Boot Camp | Frost Design & Consulting Group Inc.</div>
 
           <div className="text-sm text-muted-foreground">
