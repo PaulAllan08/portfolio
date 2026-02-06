@@ -54,10 +54,13 @@ export default function Home() {
         <div className=" space-y-4">
           <div className="text-xs text-muted-foreground">ABOUT ME</div>
           <div>
-            Product-focused Web Developer and Product Designer with hands-on experience designing and building digital 
-            products from MVP to launch. I bridge design and engineering by crafting intuitive, brand-aligned interfaces and 
-            implementing them through scalable solutions. Experienced working cross-functionally with product managers, 
-            stakeholders, and engineers, with a strong foundation in both UI/UX design and full-stack development.
+            Product-focused Web Developer and Product Designer with hands-on
+            experience designing and building digital products from MVP to
+            launch. I bridge design and engineering by crafting intuitive,
+            brand-aligned interfaces and implementing them through scalable
+            solutions. Experienced working cross-functionally with product
+            managers, stakeholders, and engineers, with a strong foundation in
+            both UI/UX design and full-stack development.
           </div>
         </div>
       </BlurFade>
@@ -96,6 +99,34 @@ export default function Home() {
               <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
                 <Avatar className="border size-12 m-auto">
                   <AvatarImage
+                    src="/img/talino.jpg"
+                    alt="talino ai"
+                    className="object-cover"
+                  />
+                  <AvatarFallback>logo</AvatarFallback>
+                </Avatar>
+              </div>
+
+              <div className="flex flex-col-reverse  md:flex-row md:items-center md:justify-between md:pt-3">
+                <div>
+                  <div>Talino Venture Studios</div>
+                  <div className="text-sm text-muted-foreground">
+                    Product Designer Consultant
+                  </div>
+                </div>
+
+                <div className="text-sm">
+                  <div className="text-end font-bold">Contract</div>
+                  <div className="text-muted-foreground">
+                    Nov 2025 to Present
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="relative ml-10 mb-12">
+              <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+                <Avatar className="border size-12 m-auto">
+                  <AvatarImage
                     src="/img/copiloted.jpg"
                     alt="copiloted ai"
                     className="object-cover"
@@ -111,10 +142,13 @@ export default function Home() {
                     Junior Software Engineer (On-site)
                   </div>
                 </div>
-                
+
                 <div className="text-sm  ">
                   <div className="text-end font-bold">Contract</div>
-                  <div className="text-muted-foreground">   Aug 2025 to Present</div>
+                  <div className="text-muted-foreground">
+                    {" "}
+                    Aug 2025 to Present
+                  </div>
                 </div>
               </div>
             </li>
