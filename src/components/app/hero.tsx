@@ -111,7 +111,7 @@ export default function Home() {
                 <div>
                   <div>Talino Venture Studios</div>
                   <div className="text-sm text-muted-foreground">
-                    Product Designer Consultant
+                    Product Designer Consultant (Hybrid)
                   </div>
                 </div>
 
