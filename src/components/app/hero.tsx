@@ -16,7 +16,7 @@ export default function Home() {
             repeatdelay={1}
             className={cn(
               "[mask-image:radial-gradient(250px_circle_at_center,white,transparent)]",
-              "inset-x-0 inset-y-[-50%] h-[200%] skew-y-0"
+              "inset-x-0 inset-y-[-50%] h-[200%] skew-y-0",
             )}
           />
 
@@ -99,8 +99,8 @@ export default function Home() {
               <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
                 <Avatar className="border size-12 m-auto">
                   <AvatarImage
-                    src="/img/talino.jpg"
-                    alt="talino ai"
+                    src="/img/nmblr.png"
+                    alt="nmblr ai"
                     className="object-cover"
                   />
                   <AvatarFallback>logo</AvatarFallback>
@@ -109,7 +109,7 @@ export default function Home() {
 
               <div className="flex flex-col-reverse  md:flex-row md:items-center md:justify-between md:pt-3">
                 <div>
-                  <div>Talino Venture Studios</div>
+                  <div>Nmblr AI</div>
                   <div className="text-sm text-muted-foreground">
                     Product Designer Consultant (Hybrid)
                   </div>
