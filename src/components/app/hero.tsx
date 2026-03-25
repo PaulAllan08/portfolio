@@ -111,7 +111,7 @@ export default function Home() {
                 <div>
                   <div>Nmblr AI</div>
                   <div className="text-sm text-muted-foreground">
-                    Product Designer Consultant (Hybrid)
+                    Product Designer Consultant (Remote)
                   </div>
                 </div>
 
@@ -139,7 +139,7 @@ export default function Home() {
                 <div>
                   <div>Copiloted AI</div>
                   <div className="text-sm text-muted-foreground">
-                    Junior Software Engineer (On-site)
+                    Junior Software Engineer (Hybrid)
                   </div>
                 </div>
 
@@ -147,7 +147,7 @@ export default function Home() {
                   <div className="text-end font-bold">Contract</div>
                   <div className="text-muted-foreground">
                     {" "}
-                    Aug 2025 to Present
+                    Aug 2025 to March 2026
                   </div>
                 </div>
               </div>
@@ -172,8 +172,8 @@ export default function Home() {
                     UI/Visual Designer (Remote)
                   </div>
                 </div>
-                <div className="text-sm  ">
-                  <div className="text-end font-bold">Contract</div>
+                <div className="text-sm">
+                  <div className="text-end font-bold">Full-Time</div>
                   <div className="text-muted-foreground">July to Sep 2025</div>
                 </div>
               </div>
