@@ -34,7 +34,7 @@ export default function Home() {
                   Paul Allan Palacio
                 </div>
                 <div className="text-sm text-muted-foreground">
-                  Web Developer | Product Designer
+                  Software Engineer | Product Designer
                 </div>
               </div>
             </div>
